@@ -34,6 +34,7 @@
       letter-spacing: 5px;
       background-color: rgba(210,108,159,0.5);
       font-family: 'Cormorant Garamond', serif;
+      z-index:1;
     }
     .navbar-nav a:hover {
       color: #F15F5F !important;
