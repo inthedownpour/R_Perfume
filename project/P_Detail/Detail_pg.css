@@ -1,6 +1,28 @@
 .details{
-  margin:30px;
+  margin-top:10px;
+  margin-left:10px;
+  margin-right:10px;
   border:5px solid rgba(210,108,159,0.5);
   border-radius: 20px;
-  padding:15px;
+  padding:12px;
+}
+#review{
+  height:100px;
+}
+#first{
+  height:60px;
+  background-color: red;
+}
+#second{
+  height:60px;
+}
+#third{
+  height:60px;
+}
+img{
+  margin:0;
+}
+div.row{
+  display:flex;
+  width:100%;
 }
