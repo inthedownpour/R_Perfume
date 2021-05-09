@@ -5,6 +5,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="Detail_pg.css">
     <title>Find Your Perfume!</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -162,6 +163,7 @@ clear:left;
 img{
   object-fit:cover;
 }
+
     </style>
   </head>
   <body>
@@ -196,34 +198,35 @@ img{
       </div>
       </div>
     </div>
+  <div class="details">
     <div class="container-fluid summer eng">
       <div class="row">
-        <div class="col-sm-1">
-        </div>
-        <div class="col-sm-3">
-            <!--<img src="perfume2.png" alt="perfumeimage">-->
-            <img src="floral2.jpg" class="img-responsive" style="width:100%; height:100%;" alt="Image">
+        <div class="col-sm-4">
+            <img src="floral2.jpg" class="img-responsive"  alt="Image">
         </div>
         <div class="col-sm-8">
             <h4>Brand: </h4>
             <h4>Series: </h4>
             <div class="row">
                 <div class="col-sm-4 cate">
-                  <p>  <br><span class="kor">노드 1<span></p><br>
+                  <p><span class="kor">노드 1<span></p>
                     <a href=""><img src="citrus2.jpg" class="img-responsive" style="width:100%" alt="Image"></a>
                 </div>
                 <div class="col-sm-4 cate">
-                  <p> <br><span class="kor">노드 2</span></p><br>
+                  <p><span class="kor">노드 2</span></p>
                     <a href=""><img src="wood5.jpg" class="img-responsive" style="width:100%; object-fit: fill;" alt="Image"></a>
                 </div>
                 <div class="col-sm-4 cate">
-                  <p> <br> <span class="kor">노드 3</span></p><br>
+                  <p> <span class="kor">노드 3</span></p>
                     <a href=""><img src="floral2.jpg" class="img-responsive" style="width:100%" alt="Image"></a>
                 </div>
             </div>
         </div>
       </div>
+    </div>
+  </div>
 
+  <div class="details">
             <div class="row">
               <h5>관련 상품 추천</h5>
                 <div class="col-sm-4 cate">
