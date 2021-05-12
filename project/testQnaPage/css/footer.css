@@ -1,0 +1,30 @@
+.footer {
+  /* position: absolute;
+  top: 75%; */
+  margin: 60px 0px 40px 0px;
+  width: 100%;
+  padding: 30px 0px 30px 0px;
+  background-color: rgba(210, 108, 159, 0.5);
+  color: #828282;
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: 7px;
+}
+
+.gly {
+  font-size: 4px;
+  color: #828282;
+  margin-right: 20px;
+  float: right;
+}
+
+.gly:hover {
+  color: #F15F5F;
+}
+
+.glyphicon {
+  font-size: 25px;
+}
+
+.business {
+  margin-left: 20px;
+}
