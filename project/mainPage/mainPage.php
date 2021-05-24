@@ -1,4 +1,10 @@
-<!DOCTYPE html>
+<?php
+header('P3P: CP="NOI CURa ADMa DEVa TAIa OUR DELa BUS IND PHY ONL UNI COM NAV INT DEM PRE"');
+ini_set("session.cookie_lifetime", "86400");
+ini_set("session.cache_expire", "86400");
+ini_set("session.gc_maxlifetime","1400");
+session_start(); ?>
+<html>
 <html lang="en">
 <head>
   <link rel="preconnect" href="https://fonts.gstatic.com">

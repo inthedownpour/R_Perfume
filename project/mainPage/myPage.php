@@ -1,4 +1,9 @@
-
+<?php
+header('P3P: CP="NOI CURa ADMa DEVa TAIa OUR DELa BUS IND PHY ONL UNI COM NAV INT DEM PRE"');
+ini_set("session.cookie_lifetime", "86400");
+ini_set("session.cache_expire", "86400");
+ini_set("session.gc_maxlifetime","1400");
+session_start();?>
 <html lang="en">
 <head>
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -299,20 +304,33 @@
     </div>
     <div class="container-fluid">
       <form name="join" class="joinForm">
-        <h2>Welcome, bohyun!</h2>
+        <h2>Welcome, <?php
+        if(isset($_SESSION['name'])){
+          $name = $_SESSION['name'];
+        }
+        echo $name ?>!</h2>
         <div class="row">
           <div class="col-sm-2">
             <img src="오 드 뚜왈렛 오 데 썽.jpg" width="150" height="150" class="profile"></img>
           </div>
           <div class="col-sm-10">
         <div class="nameForm">
-          <span class="name" name="name">Name : bohyun </span>
+          <span class="name" name="name">Name : <?php if(isset($_SESSION['name'])){
+            $name = $_SESSION['name'];
+          }
+          echo $name ?> </span>
         </div>
         <div class="idForm">
-          <span class="id" name="id">ID : bohyun1999</span>
+          <span class="id" name="id">ID : <?php if(isset($_SESSION['id'])){
+            $id = $_SESSION['id'];
+          }
+          echo $id ?></span>
         </div>
         <div class="numberForm">
-          <span class="number" name="phone">Phone Number : 01034011014</span>
+          <span class="number" name="phone">Phone Number : <?php if(isset($_SESSION['phone'])){
+            $phone = $_SESSION['phone'];
+          }
+          echo $phone ?></span>
         </div>
     </div>
     </div>

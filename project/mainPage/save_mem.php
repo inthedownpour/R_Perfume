@@ -31,7 +31,7 @@ else{
 <script>
 alert("중복된 아이디입니다.")
 }*/
-
+session_start();
 $name=$_POST['name'];
 $id=$_POST['id'];
 $pw=$_POST['pw'];

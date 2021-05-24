@@ -3,6 +3,7 @@
 
 $id=$_POST['id'];
 $pw=$_POST['pw'];
+
 $connect = mysqli_connect("127.0.0.1","root","1234","perfume");
 
 if($id==""||$pw==""){
@@ -21,14 +22,29 @@ else{
   $row = mysqli_fetch_array($result);
 
   if($id==$row['id'] && $pw ==$row['pw']){
+    session_start();
     $_SESSION['id']=$row['id'];
+    $_SESSION['phone']=$row['phone'];
+    $_SESSION['name']=$row['name'];
     $_POST['nick']=$row['id'];
-    include "myPage.php";
+    //$memid['memid']=$row['id'];
+
+
+    $_send="";
+    $_name = $row["id"];
+    $_send = $_name;
+
+    //setcookie($name, $value);
+    //include ("myPage.php");
     ?>
     <script>
     alert("로그인 되었습니다.");
     </script>
     <?php
+    /*if(isset($_SESSION['id'])){
+      $id = $_SESSION['id'];
+      echo $id;
+    }*/
     echo "<script>location.href='myPage.php';</script>";
   }
   else{
