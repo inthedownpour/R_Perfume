@@ -295,7 +295,7 @@ session_start();?>
                   <li><a href="#">SERIES</a></li>
                 </ul>
               </li>
-              <li class="menu"><a href="" style="color: white;">MY PAGE</a></li>
+              <li class="menu"><a href="choosePage.php" style="color: white;">MY PAGE</a></li>
               <li class="menu"><a href="" class="glyphicon glyphicon-heart" style="color: white;"></a></li>
             </ul>
           </div>
