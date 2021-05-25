@@ -336,7 +336,7 @@ session_start();?>
     </div>
 
     <a href=""><input type="button" class="btn" value="LIKE LIST"></a>
-    <a href="mainPage.php"><input type="button" class="btn" value="LOGOUT"></a>
+    <a href="logout.php"><input type="button" class="btn" value="LOGOUT"></a>
   </div>
 </form>
     <div class="container-fluid bg-1">
