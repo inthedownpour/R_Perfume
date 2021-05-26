@@ -6,6 +6,10 @@
   border-radius: 20px;
   padding:12px;
 }
+.recommended{
+  border:5px solid rgba(210,108,159,0.5);
+  border-radius: 20px;
+}
 #review{
   height:100px;
 }
