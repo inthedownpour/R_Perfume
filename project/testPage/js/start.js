@@ -10,19 +10,36 @@ const rose = document.querySelector("#rose");
 const citrus = document.querySelector("#citrus");
 const woody = document.querySelector("#woody");
 const vanilla = document.querySelector("#vanilla");
+const qSex = document.querySelector("#qSex");
 
 
 //사라졌다가 나타나는 시간 다시 조절하기!
-function begin(){
+
+function start(){
 
   testStart.style.WebkitAnimation = "fadeOut 1s";
   testStart.style.animation = "fadeOut 1s";
 
   setTimeout(() => {
+    qSex.style.WebkitAnimation = "fadeIn 1s";
+    qSex.style.animation = "fadeIn 1s";
+    setTimeout(() => {
+      testStart.style.display="none";
+      qSex.style.display="block";
+    },450)
+  },450);
+}
+
+function begin(){
+
+  qSex.style.WebkitAnimation = "fadeOut 1s";
+  qSex.style.animation = "fadeOut 1s";
+
+  setTimeout(() => {
     qFirst.style.WebkitAnimation = "fadeIn 1s";
     qFirst.style.animation = "fadeIn 1s";
     setTimeout(() => {
-      testStart.style.display="none";
+      qSex.style.display="none";
       qFirst.style.display="block";
     },450)
   },450);
@@ -164,7 +181,11 @@ function selectVanilla(){
 }
 
 function OnMouseIn(elem){
-  elem.style.border="solid 2px red";
+  elem.style.border="solid 3px pink";
+}
+
+function OnMouseIn2(elem){
+  elem.style.border="solid 3px skyblue";
 }
 
 function OnMouseOut(elem){

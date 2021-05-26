@@ -73,12 +73,22 @@
         이 테스트를 통해서 자신에게 어울리는 향수를 추천받을 수 있습니다.<br>
         아래 시작하기 버튼을 눌러 시작하십시오.
       </p>
-      <div><button type="button" class="btn btn-default" onclick="begin()">시작하기</button></div>
+      <div><button type="button" class="btn btn-default" onclick="start()">시작하기</button></div>
+    </div>
+  </div>
+
+  <div class="qna" id="qSex">
+    <h2>당신의 성별은 무엇인가요?</h2><br><br><br>
+    <div>
+      <span><button type="button" class="btnQsex woman" onclick="begin()" style="margin-right:70px; background-color:pink;" onmousein="OnMouseIn(this)" onmouseout="OnMouseOut(this)">여자</span>
+      <span><button type="button" class="btnQsex man" onclick="begin()" style="background-color:skyblue" onmousein="OnMouseIn2(this)" onmouseout="OnMouseOut(this)">남자</span>
+
+
     </div>
   </div>
 
   <div class="qna" id="qFirst">
-    <h2>가장 마음에 드는 사진은?//처음질문</h2><br><br>
+    <h2>다음 중 가장 마음에 드는 사진은?</h2><br><br>
     <div>
       <span><button type="button" class="btnImg" id=btnFloral onclick="selectFloral()"><img src="./img/floral2.jpg" alt="failed" Onmouseover="OnMouseIn(this)" onmouseout="OnMouseOut(this)"></button>&nbsp&nbsp&nbsp</span>
       <span><button type="button" class="btnImg" id=btnFruit onclick="selectFruit()"><img src="./img/fruit.jpg" alt="failed" Onmouseover="OnMouseIn(this)" onmouseout="OnMouseOut(this)"></button>&nbsp&nbsp&nbsp</span>
@@ -87,7 +97,7 @@
   </div>
 
   <div class="qna" id="qFromFloral">
-    <h2>가장 마음에 드는 사진은?//플로랄선택시질문-비누,스파이시사진중답변</h2><br><br>
+    <h2>다음 중 가장 마음에 드는 사진은?</h2><br><br>
     <div>
       <span><button type="button" class="btnImg" id=btnFloral onclick="selectSoap()"><img src="./img/soap3.jpg" alt="failed" Onmouseover="OnMouseIn(this)" onmouseout="OnMouseOut(this)"></button>&nbsp&nbsp&nbsp</span>
       <span><button type="button" class="btnImg" id=btnFruit onclick="selectSpicy()"><img src="./img/spicy.jpg" alt="failed" Onmouseover="OnMouseIn(this)" onmouseout="OnMouseOut(this)"></button>&nbsp&nbsp&nbsp</span>
@@ -95,7 +105,7 @@
   </div>
 
   <div class="qna" id="qFromFruit">
-    <h2>가장 마음에 드는 사진은?과일선택에서온질문-로즈,시트러스</h2><br><br>
+    <h2>다음 중 가장 마음에 드는 사진은?</h2><br><br>
     <div>
       <span><button type="button" class="btnImg" id=btnFloral onclick="selectRose()"><img src="./img/rose.jpg" alt="failed" Onmouseover="OnMouseIn(this)" onmouseout="OnMouseOut(this)"></button>&nbsp&nbsp&nbsp</span>
       <span><button type="button" class="btnImg" id=btnFruit onclick="selectCitrus()"><img src="./img/citrus.jpg" alt="failed" Onmouseover="OnMouseIn(this)" onmouseout="OnMouseOut(this)"></button>&nbsp&nbsp&nbsp</span>
@@ -103,7 +113,7 @@
   </div>
 
   <div class="qna" id="qFromAroma">
-    <h2>가장 마음에 드는 사진은?아로마선택에서온질문-우디,바닐라</h2><br><br>
+    <h2>다음 중 가장 마음에 드는 사진은?</h2><br><br>
     <div>
       <span><button type="button" class="btnImg" id=btnFloral onclick="selectWoody()"><img src="./img/woody.jpg" alt="failed" Onmouseover="OnMouseIn(this)" onmouseout="OnMouseOut(this)"></button>&nbsp&nbsp&nbsp</span>
       <span><button type="button" class="btnImg" id=btnFruit onclick="selectVanilla()"><img src="./img/vanilla.jpg" alt="failed" Onmouseover="OnMouseIn(this)" onmouseout="OnMouseOut(this)"></button>&nbsp&nbsp&nbsp</span>
