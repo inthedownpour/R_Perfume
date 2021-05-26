@@ -18,7 +18,15 @@
   <link rel="stylesheet" href="./css/navbar.css">
   <link rel="stylesheet" href="./css/qna.css">
   <link rel="stylesheet" href="./css/animation.css">
+  <style>
+    body {
+      -ms-overflow-style: none;
+    }
 
+    ::-webkit-scrollbar {
+      display: none;
+    }
+  </style>
 </head>
 
 <body>
@@ -57,7 +65,7 @@
   <div class="container-fluid">
     <div id="testStart">
       <h1>향수 추천 테스트</h1><br>
-      <div><img src="./img/testImg.jpg" alt="mainImage" style="display:block; height:450px; width:650px; margin: 0px auto " alt="Image" class="img-rounded img-responsive"></div>
+      <div><img src="./img/testImg.jpg" alt="mainImage" style="display:block; height:450px; width:auto; margin: 0px auto" alt="Image" class="img-rounded img-responsive"></div>
       <br>
 
       <!-- need fix 글씨 간격 수정 하고싶음-->
@@ -72,42 +80,58 @@
   <div class="qna" id="qFirst">
     <h2>가장 마음에 드는 사진은?//처음질문</h2><br><br>
     <div>
-      <span><button type="button" class="btnImg" id=btnFloral onclick="selectFloral()"><img src="./img/floral2.jpg" alt="failed" style="border:2px solid black"></button>&nbsp&nbsp&nbsp</span>
-      <span><button type="button" class="btnImg" id=btnFruit onclick="selectFruit()"><img src="./img/fruit.jpg" alt="failed" style="border:2px solid black"></button>&nbsp&nbsp&nbsp</span>
-      <span><button type="button" class="btnImg" id=btnAroma onclick="selectAroma()"><img src="./img/aroma.jpg" alt="failed" style="border:2px solid black"></button></span>
+      <span><button type="button" class="btnImg" id=btnFloral onclick="selectFloral()"><img src="./img/floral2.jpg" alt="failed" Onmouseover="OnMouseIn(this)" onmouseout="OnMouseOut(this)"></button>&nbsp&nbsp&nbsp</span>
+      <span><button type="button" class="btnImg" id=btnFruit onclick="selectFruit()"><img src="./img/fruit.jpg" alt="failed" Onmouseover="OnMouseIn(this)" onmouseout="OnMouseOut(this)"></button>&nbsp&nbsp&nbsp</span>
+      <span><button type="button" class="btnImg" id=btnAroma onclick="selectAroma()"><img src="./img/aroma.jpg" alt="failed" Onmouseover="OnMouseIn(this)" onmouseout="OnMouseOut(this)"></button></span>
     </div>
   </div>
 
   <div class="qna" id="qFromFloral">
     <h2>가장 마음에 드는 사진은?//플로랄선택시질문-비누,스파이시사진중답변</h2><br><br>
     <div>
-      <span><button type="button" class="btnImg" id=btnFloral onclick="selectSoap()"><img src="./img/soap3.jpg" alt="failed" style="border:2px solid black"></button>&nbsp&nbsp&nbsp</span>
-      <span><button type="button" class="btnImg" id=btnFruit onclick="selectSpicy()"><img src="./img/spicy.jpg" alt="failed" style="border:2px solid black"></button>&nbsp&nbsp&nbsp</span>
+      <span><button type="button" class="btnImg" id=btnFloral onclick="selectSoap()"><img src="./img/soap3.jpg" alt="failed" Onmouseover="OnMouseIn(this)" onmouseout="OnMouseOut(this)"></button>&nbsp&nbsp&nbsp</span>
+      <span><button type="button" class="btnImg" id=btnFruit onclick="selectSpicy()"><img src="./img/spicy.jpg" alt="failed" Onmouseover="OnMouseIn(this)" onmouseout="OnMouseOut(this)"></button>&nbsp&nbsp&nbsp</span>
     </div>
   </div>
 
   <div class="qna" id="qFromFruit">
     <h2>가장 마음에 드는 사진은?과일선택에서온질문-로즈,시트러스</h2><br><br>
     <div>
-      <span><button type="button" class="btnImg" id=btnFloral onclick="selectRose()"><img src="./img/rose.jpg" alt="failed" style="border:2px solid black"></button>&nbsp&nbsp&nbsp</span>
-      <span><button type="button" class="btnImg" id=btnFruit onclick="selectCitrus()"><img src="./img/citrus.jpg" alt="failed" style="border:2px solid black"></button>&nbsp&nbsp&nbsp</span>
+      <span><button type="button" class="btnImg" id=btnFloral onclick="selectRose()"><img src="./img/rose.jpg" alt="failed" Onmouseover="OnMouseIn(this)" onmouseout="OnMouseOut(this)"></button>&nbsp&nbsp&nbsp</span>
+      <span><button type="button" class="btnImg" id=btnFruit onclick="selectCitrus()"><img src="./img/citrus.jpg" alt="failed" Onmouseover="OnMouseIn(this)" onmouseout="OnMouseOut(this)"></button>&nbsp&nbsp&nbsp</span>
     </div>
   </div>
 
   <div class="qna" id="qFromAroma">
     <h2>가장 마음에 드는 사진은?아로마선택에서온질문-우디,바닐라</h2><br><br>
     <div>
-      <span><button type="button" class="btnImg" id=btnFloral onclick="selectWoody()"><img src="./img/woody.jpg" alt="failed" style="border:2px solid black"></button>&nbsp&nbsp&nbsp</span>
-      <span><button type="button" class="btnImg" id=btnFruit onclick="selectVanilla()"><img src="./img/vanilla.jpg" alt="failed" style="border:2px solid black"></button>&nbsp&nbsp&nbsp</span>
+      <span><button type="button" class="btnImg" id=btnFloral onclick="selectWoody()"><img src="./img/woody.jpg" alt="failed" Onmouseover="OnMouseIn(this)" onmouseout="OnMouseOut(this)"></button>&nbsp&nbsp&nbsp</span>
+      <span><button type="button" class="btnImg" id=btnFruit onclick="selectVanilla()"><img src="./img/vanilla.jpg" alt="failed" Onmouseover="OnMouseIn(this)" onmouseout="OnMouseOut(this)"></button>&nbsp&nbsp&nbsp</span>
     </div>
   </div>
 
-  <div class="qna" id="soap">
+  <div class="container-fluid qna" id="soap">
     <h2>비누-산타마리아노벨라 추천!</h2>
     <div>
+      <p>플로럴과 비누를 선택한 당신, 은은하고 잔잔한 향을 좋아하는 군요. 비누향이 대표적인 브랜드 산타마리아 노벨라를 추천합니다.<br>
+        산타마리아 노벨라는 약국에서 시작된 이탈리아 천연 화장품 브랜드로,400년이 넘는 역사를 가지고 있습니다.<br>
+        프랑스에 여행가면 화장품사러 꼭 들르는 몽쥬약국처럼, 피렌체에 위치한산타마리아 노벨라 약국 역시빼놓을 수 없는 관광지라고 합니다.
+      </p>
+    </div>
+    <br>
+    <hr>
+    <div class="row">
+      <div>
+        <h3>아쿠아 디 콜로니아 프리지아</h3>
+        <img src="img/프리지아.jpg" alt="failed" class="img-responsive" style="display:block; margin: 0px auto; height:300px; width:auto">
+        <br>
 
+        <p style="margin-left:700px; margin-right:700px;">산타 마리아 노벨라 '아쿠아 디 콜로니아 프리지아'향은 신비와 미지의 매력을 <br> 상징하는 남아프리카 태생의 프리지아 꽃에서 영감을 받은 플로럴 싱글 노트로 여성스러움이 느껴지는 향수입니다. 프리지아 꽃에서 추출한 은은한 비누향입니다.</p>
+      </div>
     </div>
   </div>
+  </div>
+
 
   <div class="qna" id="spicy">
     <h2>스파이시-딥디크 추천</h2>
@@ -126,9 +150,11 @@
   <div class="container-fluid qna" id="citrus">
     <h2>시트러스-조말론 추천</h2>
     <div>
-      <p>프루티와 시트러스를 선택한 당신, 상쾌하고 달콤한 향을 좋아하는군요. 시트러스향이 대표적인 브랜드 조말론 런던을 추천합니다.<br>조말론은 인공적인 원료를 사용하지 않고 천연원료를 사용하며 일반적으로 향수에 사용하지 않는 원료들을 사용함으로써 다채로운 조말론만의 특별함을 느낄 수 있습니다. </p>
+      <p>프루티와 시트러스를 선택한 당신, 상쾌하고 달콤한 향을 좋아하는군요. 시트러스향이 대표적인 브랜드 조말론 런던을 추천합니다.<br>
+        조말론은 인공적인 원료를 사용하지 않고 천연원료를 사용하며 일반적으로 향수에 사용하지 않는 원료들을 사용함으로써 다채로운 조말론만의 특별함을 느낄 수 있습니다. </p>
     </div>
     <br>
+    <hr>
     <div class="row">
       <div class="col-sm-4">
         <h3>블랙베리 앤 베이</h3>
@@ -154,14 +180,14 @@
     </div>
   </div>
 
-  <div class="qna" id="woody" style="border:2px solid black">
+  <div class="qna" id="woody">
     <h2>우디-이솝 추천</h2>
     <div>
 
     </div>
   </div>
 
-  <div class="qna" id="vanilla" style="border:2px solid black">
+  <div class="qna" id="vanilla">
     <h2>바닐라-메종마르지엘라 추천</h2>
     <div>
 

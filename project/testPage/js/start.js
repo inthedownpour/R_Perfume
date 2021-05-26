@@ -162,3 +162,11 @@ function selectVanilla(){
     },450)
   },450);
 }
+
+function OnMouseIn(elem){
+  elem.style.border="solid 2px red";
+}
+
+function OnMouseOut(elem){
+  elem.style.border="";
+}
