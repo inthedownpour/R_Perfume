@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>향수 추천 테스트</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="./css/footer.css">
+  <link rel="stylesheet" href="./css/testStart.css">
+  <link rel="stylesheet" href="./css/navbar.css">
+  <link rel="stylesheet" href="./css/qna.css">
+  <link rel="stylesheet" href="./css/animation.css">
+
+</head>
+
+<body>
+  <div class="navbar navbar-default">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNav">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="perfume_main.html">
+          <img src="./img/perfume.png" id="brand" class="img-responsive"></img></a>
+      </div>
+      <div class="dropmenu">
+        <div class="collapse  navbar-collapse" id="myNav">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="menu search-button"><a href="" style="color: white;">SEARCH</a></li>
+            <li class="menu"><a href="testPage.html" style="color: white;">TEST</a></li>
+            <li class="menu"><a href="#" style="color: white;">CATEGORY</a>
+              <ul>
+                <li><a href="#">BRAND</a></li>
+                <li><a href="#">SERIES</a></li>
+              </ul>
+            </li>
+            <li class="menu"><a href="" style="color: white;">MY PAGE</a></li>
+            <li class="menu"><a href="" class="glyphicon glyphicon-heart" style="color: white;"></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- style="background-color:lightgrey" -->
+  <div class="container-fluid">
+    <div id="testStart">
+      <h1>향수 추천 테스트</h1><br>
+      <div><img src="./img/testImg.jpg" alt="mainImage" style="display:block; height:450px; width:650px; margin: 0px auto " alt="Image" class="img-rounded img-responsive"></div>
+      <br>
+
+      <!-- need fix 글씨 간격 수정 하고싶음-->
+      <p>향수 추천 테스트 입니다.<br>
+        이 테스트를 통해서 자신에게 어울리는 향수를 추천받을 수 있습니다.<br>
+        아래 시작하기 버튼을 눌러 시작하십시오.
+      </p>
+      <div><button type="button" class="btn btn-default" onclick="begin()">시작하기</button></div>
+    </div>
+  </div>
+
+  <div class="qna" id="qFirst">
+    <h2>가장 마음에 드는 사진은?//처음질문</h2><br><br>
+    <div>
+      <span><button type="button" class="btnImg" id=btnFloral onclick="selectFloral()"><img src="./img/floral2.jpg" alt="failed" style="border:2px solid black"></button>&nbsp&nbsp&nbsp</span>
+      <span><button type="button" class="btnImg" id=btnFruit onclick="selectFruit()"><img src="./img/fruit.jpg" alt="failed" style="border:2px solid black"></button>&nbsp&nbsp&nbsp</span>
+      <span><button type="button" class="btnImg" id=btnAroma onclick="selectAroma()"><img src="./img/aroma.jpg" alt="failed" style="border:2px solid black"></button></span>
+    </div>
+  </div>
+
+  <div class="qna" id="qFromFloral">
+    <h2>가장 마음에 드는 사진은?//플로랄선택시질문-비누,스파이시사진중답변</h2><br><br>
+    <div>
+      <span><button type="button" class="btnImg" id=btnFloral onclick="selectSoap()"><img src="./img/soap3.jpg" alt="failed" style="border:2px solid black"></button>&nbsp&nbsp&nbsp</span>
+      <span><button type="button" class="btnImg" id=btnFruit onclick="selectSpicy()"><img src="./img/spicy.jpg" alt="failed" style="border:2px solid black"></button>&nbsp&nbsp&nbsp</span>
+    </div>
+  </div>
+
+  <div class="qna" id="qFromFruit">
+    <h2>가장 마음에 드는 사진은?과일선택에서온질문-로즈,시트러스</h2><br><br>
+    <div>
+      <span><button type="button" class="btnImg" id=btnFloral onclick="selectRose()"><img src="./img/rose.jpg" alt="failed" style="border:2px solid black"></button>&nbsp&nbsp&nbsp</span>
+      <span><button type="button" class="btnImg" id=btnFruit onclick="selectCitrus()"><img src="./img/citrus.jpg" alt="failed" style="border:2px solid black"></button>&nbsp&nbsp&nbsp</span>
+    </div>
+  </div>
+
+  <div class="qna" id="qFromAroma">
+    <h2>가장 마음에 드는 사진은?아로마선택에서온질문-우디,바닐라</h2><br><br>
+    <div>
+      <span><button type="button" class="btnImg" id=btnFloral onclick="selectWoody()"><img src="./img/woody.jpg" alt="failed" style="border:2px solid black"></button>&nbsp&nbsp&nbsp</span>
+      <span><button type="button" class="btnImg" id=btnFruit onclick="selectVanilla()"><img src="./img/vanilla.jpg" alt="failed" style="border:2px solid black"></button>&nbsp&nbsp&nbsp</span>
+    </div>
+  </div>
+
+  <div class="qna" id="soap">
+    <h2>비누-산타마리아노벨라 추천!</h2>
+    <div>
+
+    </div>
+  </div>
+
+  <div class="qna" id="spicy">
+    <h2>스파이시-딥디크 추천</h2>
+    <div>
+
+    </div>
+  </div>
+
+  <div class="qna" id="rose">
+    <h2>로즈-바이레도 추천</h2>
+    <div>
+
+    </div>
+  </div>
+
+  <div class="container-fluid qna" id="citrus">
+    <h2>시트러스-조말론 추천</h2>
+    <div>
+      <p>프루티와 시트러스를 선택한 당신, 상쾌하고 달콤한 향을 좋아하는군요. 시트러스향이 대표적인 브랜드 조말론 런던을 추천합니다.<br>조말론은 인공적인 원료를 사용하지 않고 천연원료를 사용하며 일반적으로 향수에 사용하지 않는 원료들을 사용함으로써 다채로운 조말론만의 특별함을 느낄 수 있습니다. </p>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-sm-4">
+        <h3>블랙베리 앤 베이</h3>
+        <img src="img/블랙베리 앤 베이.jpg" alt="failed" class="img-responsive" style="display:block; margin: 0px auto; height:300px; width:auto">
+        <br>
+        <p style="margin-left:100px; margin-right:100px;">조말론 하면 빠질 수 없는 '블랙베리 앤 베이'입니다. 향수를 좋아하시는 분들은 한 번씩 들어보셨을 만한 정말 유명한 조말론의 대표 향수입니다.블랙베리의 상큼하며 달콤한 과일향 이후에 시원한 향이 퍼지면서 너무 달콤하지 않게 향을 잡아줍니다. 살짝 무게감이 있으며 사계절 사용하기 좋은 향입니다.</p>
+      </div>
+
+      <div class="col-sm-4">
+        <h3>라임 바질 앤 만다린</h3>
+        <img src="img/라임 바질 앤 만다린.jpg" alt="failed" class="img-responsive" style="display:block; margin: 0px auto; height:300px; width:auto">
+        <br>
+        <p style="margin-left:100px; margin-right:100px;">'라임 바질 앤 만다린'입니다. 남녀공용으로 사용할 수 있는 향수입니다. 달콤, 상큼한 향이 첫 향에 나면서 잔향의 우디함이 은은하고 길게 이어집니다. 사계절 다 어울리는 향으로 상쾌하면서 쾌활함을 표현하면서 깔끔한 이미지에 잘 어울리는 향입니다. 시트러스를 싫어하시는 분들도 시트러스 매력에 빠지게 만들 수 있는 향이랍니다.</p>
+      </div>
+
+      <div class="col-sm-4">
+        <h3>넥타린 블로썸 앤 허니</h3>
+        <img src="img/넥타린 블로썸 앤 허니.png" alt="failed" class="img-responsive" style="display:block; margin: 0px auto; height:300px; width:auto">
+        <br>
+        <p style="margin-left:100px; margin-right:100px;">달콤함을 자랑하는 '넥타린 블로썸 앤 허니'입니다. 복숭아의 달콤함에 꿀을 섞어 달달과 부드러움의 완벽한 조화를 느낄 수 있습니다. 겨울이 지나고 예쁜 꽃들이 피는 봄에 정말 잘 어울리는 향이랍니다. 얼핏 플로럴같지만 프루티향이 더 강하게 나는 프루티 계열의 향입니다.</p>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="qna" id="woody" style="border:2px solid black">
+    <h2>우디-이솝 추천</h2>
+    <div>
+
+    </div>
+  </div>
+
+  <div class="qna" id="vanilla" style="border:2px solid black">
+    <h2>바닐라-메종마르지엘라 추천</h2>
+    <div>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+  <div class="container-fluid footer">
+    <div class="row">
+      <div class="col-sm-9">
+        <p class="business"> 상호 : Find your perfume! | 대표 : 이보현, 양희진, 심지연 | 전화 : 010-0000-0000</p>
+        <p class="business"> 이메일 : bohyun1999@naver.com | 주소 : 충청북도 청주시 서원구 개신동 131</p>
+        <p class="business"> copyright ⓒ Team DA. all rights reserved</p>
+      </div>
+      <div class="col-sm-3">
+        <a href="mailto:bohyun1999@gmail.com" class="gly"><span class="glyphicon glyphicon-envelope"></span></a>
+        <a href="https://map.naver.com/v5/search/%EC%B6%A9%EB%B6%81%EB%8C%80?c=14187873.3370958,4387595.3017973,15,0,0,0,dh" class="gly"><span class="glyphicon glyphicon-map-marker"></span></a>
+        <a href="tel: 010-0000-0000" class="gly"><span class="glyphicon glyphicon-phone"></span></a>
+      </div>
+    </div>
+  </div>
+
+  <script src="./js/start.js"></script>
+
+</body>
+
+</html>
