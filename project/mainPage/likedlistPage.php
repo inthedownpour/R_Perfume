@@ -19,14 +19,6 @@ session_start(); ?>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <style>
 
-  #back{
-    background-image: url('back17.jpg');
-    background-size: cover;
-    background-attatchment: scrolld;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 700px;
-  }
   .navbar {
     padding-top: 21px;
     padding-bottom: 30px;
@@ -176,6 +168,23 @@ session_start(); ?>
   .business{
     margin-left: 20px;
   }
+  .liked{
+    margin-top: 130px;
+  }
+  .tit{
+    font-size: 20px;
+  }
+  hr{
+    background: rgb(205,136,175);
+    border: 0;
+    height: 1.5px;
+  }
+  .per{
+    margin-top: 20px;
+  }
+  .list{
+    padding-top: 15px;
+  }
   </style>
 </head>
 <body>
@@ -196,38 +205,64 @@ session_start(); ?>
               <ul class="nav navbar-nav navbar-right">
                 <li>
                   <!--<span class="search-box"><input type="text" class="search-txt" placeholder="Search"></span></li>-->
-                <li class="menu search-button"><a href="" style="color: white;">SEARCH</a></li>
-                <li class="menu"><a href="" style="color: white;" class="subMenu">TEST</a></li>
-                <li class="menu"><a href="" style="color: white;" class="subMenu">CATEGORY</a>
-                  <ul>
-                    <li><a href="#">BRAND</a></li>
-                    <li><a href="#">SERIES</a></li>
-                  </ul>
-                </li>
-                <li class="menu"><a href="choosePage.php" style="color: white;">MY PAGE</a></li>
-                <li class="menu"><a href="choosePage2.php" class="glyphicon glyphicon-heart" style="color: white;"></a></li>
-              </ul>
+                  <li class="menu search-button"><a href="" style="color: white;">SEARCH</a></li>
+                  <li class="menu"><a href="" style="color: white;" class="subMenu">TEST</a></li>
+                  <li class="menu"><a href="" style="color: white;" class="subMenu">CATEGORY</a>
+                    <ul>
+                      <li><a href="#">BRAND</a></li>
+                      <li><a href="#">SERIES</a></li>
+                    </ul>
+                  </li>
+                  <li class="menu"><a href="choosePage.php" style="color: white;">MY PAGE</a></li>
+                  <li class="menu"><a href="choosePage2.php" class="glyphicon glyphicon-heart" style="color: white;"></a></li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="container-fluid text-center summer eng">
-      <br><h3 class="recommend">Summer Recommendation</h3><br>
       <div class="row">
-        <div class="col-sm-4 cate">
-          <p> <h3 class="eng">Citrus</h3> <br><span class="kor">상큼한 시트러스 계열의 향수로 여름의 더위를 덜어내보세요.<span></p><br>
-            <a href=""><img src="오 드 뚜왈렛 오 데 썽.jpg" class="img-responsive" style="width:100%" alt="Image"></a>
+        <div class="col-sm-4"></div>
+        <div class="col-sm-4 liked">
+
+          <div class="col-sm-12 list">
+            <hr>
+            <p class="tit eng" >Liked List</p>
+            <hr>
+            <div class="col-sm-2">
+              <a href=""><img src="오 드 뚜왈렛 오 데 썽.jpg" width="80px" height="80px"></img></a>
+            </div>
+            <div class="col-sm-1"></div>
+            <div class="col-sm-4">
+              <p class="kor per"> 딥디크 </p>
+            </div>
+            <div class="col-sm-5">
+              <p class="kor per"> 오 드 뚜왈렛 오 데 썽 </p>
+            </div>
           </div>
-          <div class="col-sm-4 cate">
-            <p> <h3 class="eng">Wood</h3><br><span class="kor"> 깔끔한 우드 계열의 향수를 통해 여름 휴가의 기분을 느껴보세요.</span></p><br>
-            <a href=""><img src="아코드 우드 오 드 퍼퓸.jpg" class="img-responsive" style="width:100%; object-fit: fill;" alt="Image"></a>
-          </div>
-          <div class="col-sm-4 cate">
-            <p> <h3 class="eng">Floral</h3><br> <span class="kor">무겁지 않은 플로럴 계열의 향수를 통해 여름의 생기를 느껴보세요.</span></p><br>
-            <a href=""><img src="프리지아.jpg" class="img-responsive" style="width:100%" alt="Image"></a>
+          <div class="col-sm-12 list">
+            <div class="col-sm-2">
+              <a href=""><img src="프리지아.jpg" width="80px" height="80px"></img></a>
+            </div>
+            <div class="col-sm-1"></div>
+            <div class="col-sm-4">
+              <p class="kor per"> 산타마리아노벨라 </p>
+            </div>
+            <div class="col-sm-5">
+              <p class="kor per"> 프리지아 </p>
+            </div>
           </div>
         </div>
+        <div class="col-sm-4"></div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-4">
+          <div class="col-sm-12">
+            <hr>
+          </div>
+        </div>
+        <div class="col-sm-4"></div>
       </div>
       <div class="container-fluid bg-1">
         <div class="row">
