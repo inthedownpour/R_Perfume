@@ -296,7 +296,7 @@
         <div class="dropmenu">
           <div class="collapse  navbar-collapse" id="myNav">
             <ul class="nav navbar-nav navbar-right">
-              <li class="menu search-button"><a href="" style="color: white;">SEARCH</a></li>
+            <!--  <li class="menu search-button"><a href="" style="color: white;">SEARCH</a></li>-->
               <li class="menu"><a href="" style="color: white;">TEST</a></li>
               <li class="menu"><a href="" style="color: white;">CATEGORY</a>
                 <ul>

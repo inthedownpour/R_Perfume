@@ -257,7 +257,7 @@
         <div class="dropmenu">
           <div class="collapse  navbar-collapse" id="myNav">
             <ul class="nav navbar-nav navbar-right">
-              <li class="menu search-button"><a href="" style="color: white;">SEARCH</a></li>
+            <!--  <li class="menu search-button"><a href="" style="color: white;">SEARCH</a></li>-->
               <li class="menu"><a href="" style="color: white;">TEST</a></li>
               <li class="menu"><a href="" style="color: white;">CATEGORY</a>
                 <ul>
@@ -266,7 +266,7 @@
                 </ul>
               </li>
               <li class="menu"><a href="" style="color: white;">MY PAGE</a></li>
-              <li class="menu"><a href="" class="glyphicon glyphicon-heart" style="color: white;"></a></li>
+              <li class="menu"><a href="choosePage2.php" class="glyphicon glyphicon-heart" style="color: white;"></a></li>
             </ul>
           </div>
         </div>

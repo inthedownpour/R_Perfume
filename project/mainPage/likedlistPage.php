@@ -205,7 +205,7 @@ session_start(); ?>
               <ul class="nav navbar-nav navbar-right">
                 <li>
                   <!--<span class="search-box"><input type="text" class="search-txt" placeholder="Search"></span></li>-->
-                  <li class="menu search-button"><a href="" style="color: white;">SEARCH</a></li>
+                <!--  <li class="menu search-button"><a href="" style="color: white;">SEARCH</a></li>-->
                   <li class="menu"><a href="" style="color: white;" class="subMenu">TEST</a></li>
                   <li class="menu"><a href="" style="color: white;" class="subMenu">CATEGORY</a>
                     <ul>
