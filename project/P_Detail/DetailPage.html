@@ -26,164 +26,224 @@ var myLatlng = new google.maps.LatLng(36.62990490050947, 127.45642593069294); //
   var marker = new google.maps.Marker({
 position: myLatlng,
 map: map,
-title: "Aroundyou" // 마커에 마우스를 올렸을때 간략하게 표기될 설명글
+title: "Store" // 마커에 마우스를 올렸을때 간략하게 표기될 설명글
 });
   }
 window.onload = initialize;
 </script>
     <style>
+      #back{
+          background-size: cover;
+          background-attatchment: scrolld;
+          background-repeat: no-repeat;
+          background-position: center;
+          height: 100px;
+        }
+        .navbar {
+          top:0;
+          lest:0;
+          width:100%;
+          height:70px;
+          border: 0;
+          border-radius: 0;
+          margin-bottom: 0;
+          font-size: 13px;
+          position: fixed;
+          width: 100%;
+          letter-spacing: 5px;
+          background-color: rgba(205,136,175,0.8);
+          font-family: 'Cormorant Garamond', serif;
+          z-index: 1;
+        }
+        .nav-up{
+          top:-40px;
+        }
+        .navbar-nav a:hover {
+          color: #F15F5F !important;
+        }
+        .navbar-brand{
+          float: left;
+          margin: 0;
+          padding: 0;
+        }
+        .navbar-nav a:link {
+          text-decoration: none;
+          color: white;
+        }
+        .row{
+          clear: both;
+        }
+        .recommend{
+          margin: 0;
+          width: 100%;
+          padding-top: 30px;
+          padding-bottom: 20px;
+          letter-spacing: 5px;
+        }
+        .dropmenu{
+          border:none;
+          border:0px;
+          margin:0px;
+          padding:0px;
+        }
 
-    #back{
-      background-size: cover;
-      background-attatchment: scrolld;
-      background-repeat: no-repeat;
-      background-position: center;
-      height: 100px;
-    }
-    .navbar {
-      z-index:1;
-      padding-top: 21px;
-      padding-bottom: 30px;
-      border: 0;
-      border-radius: 0;
-      margin-bottom: 0;
-      font-size: 13px;
-      position: fixed;
-      width: 100%;
-      letter-spacing: 5px;
-      background-color: rgba(210,108,159,0.5);
-      font-family: 'Cormorant Garamond', serif;
-    }
-    .navbar-nav a:hover {
-      color: #F15F5F !important;
-    }
-    .navbar-brand{
-      float: left;
-      margin: 0;
-      padding: 0;
-    }
-    .navbar-nav a:link {
-      color: white;
-    }
-.row{
-  clear: both;
-}
-.recommend{
-  margin: 0;
-  width: 100%;
-  padding-top: 30px;
-  padding-bottom: 20px;
-  letter-spacing: 5px;
-}
-.dropmenu{
-border:none;
-border:0px;
-margin:0px;
-padding:0px;
-}
+        .dropmenu ul{
+          list-style:none;
+          margin:0;
+          padding:0;
+        }
 
-.dropmenu ul{
-list-style:none;
-margin:0;
-padding:0;
-}
+        .dropmenu li{
+          float:left;
+          padding:0px;
+        }
 
-.dropmenu li{
-float:left;
-padding:0px;
-}
+        .dropmenu li a{
+          display:block;
+          margin:0px;
+          text-align:center;
+          text-decoration:none;
+        }
 
-.dropmenu li a{
-display:block;
-margin:0px;
-text-align:center;
-text-decoration:none;
-}
+        .dropmenu li a:hover, .dropmenu ul li:hover a{
+          text-decoration:none;
+          color:white;
+        }
 
-.dropmenu li a:hover, .dropmenu ul li:hover a{
+        .dropmenu li ul{
+          display:none;
+          border:0px;
+          position:absolute;
+          z-index:200;
+          /*top:1em;
+          /*left:0;*/
+        }
 
-text-decoration:none;
-}
+        .dropmenu li:hover ul{
+          display:block;
+        }
 
-.dropmenu li ul{
-display:none;
-border:0px;
-position:absolute;
-z-index:200;
-/*top:1em;
-/*left:0;*/
-}
+        .dropmenu li li {
+          display:block;
+          float:none;
+          margin:0px;
+          padding:0px;
+          height: 50px;
+        }
 
-.dropmenu li:hover ul{
-display:block;
-}
+        .dropmenu li:hover li a{
+          background:none;
+        }
 
-.dropmenu li li {
-display:block;
-float:none;
-margin:0px;
-padding:0px;
-height: 50px;
-}
+        .dropmenu li ul a{
+          display:block;
+          margin:0px;
+          padding-top: 15px;
+          padding-left: 15px;
+          text-align:left;
+        }
 
-.dropmenu li:hover li a{
-background:none;
-}
+        .dropmenu li ul a:hover, .dropmenu li ul li:hover a{
+          border:0px;
+          text-decoration:none;
+        }
 
-.dropmenu li ul a{
-display:block;
-margin:0px;
-padding-top: 15px;
-padding-left: 15px;
-text-align:left;
-}
+        .dropmenu p{
+          clear:left;
+        }
+        .glyphicon{
+          font-size: 25px;
+        }
+        .summer{
+          margin-top: 20px;
+          color: #828282;
+        }
+        .eng{
+          font-family: 'Cormorant Garamond', serif;
+        }
+        .kor{
+          font-family: 'Nanum Myeongjo', serif;
+        }
+        .bg-1{
+          margin: 50px 0px 40px 0px;
+          padding : 30px 0px 30px 0px;
+          background-color: rgba(210,108,159,0.5);
+          color: #828282;
+          font-family: 'Nanum Myeongjo', serif;
+          font-size: 7px;
+        }
+        .gly{
+          font-size: 4px;
+          color: #828282;
+          margin-right: 20px;
+          float: right;
+        }
+        .gly:hover{
+          color: #F15F5F;
+        }
+        .business{
+          margin-left: 20px;
+        }
+        img{
+          object-fit:cover;
+          margin:0;
+          max-width: 100%;
+          max-height: 100%;
+        }
 
-.dropmenu li ul a:hover, .dropmenu li ul li:hover a{
-border:0px;
-text-decoration:none;
-}
+        .details{
+          margin-top:10px;
+          margin-left:10px;
+          margin-right:10px;
+          border:5px solid rgba(210,108,159,0.5);
+          border-radius: 20px;
+          padding:12px;
+        }
+        .recommended{
+          border:5px solid rgba(210,108,159,0.5);
+          border-radius: 20px;
+        }
+        #review{
+          height:100px;
+        }
+        #first{
+          height:60px;
+          background-color: red;
+        }
+        #second{
+          height:60px;
+        }
+        #third{
+          height:60px;
+        }
 
-.dropmenu p{
-clear:left;
-}
-.glyphicon{
-  font-size: 25px;
-}
-.summer{
-  margin-top: 20px;
-  color: #828282;
-}
-.eng{
-  font-family: 'Cormorant Garamond', serif;
-}
-.kor{
-  font-family: 'Nanum Myeongjo', serif;
-}
-.bg-1{
-  margin: 50px 0px 40px 0px;
-  padding : 30px 0px 30px 0px;
-  background-color: rgba(210,108,159,0.5);
-  color: #828282;
-  font-family: 'Nanum Myeongjo', serif;
-  font-size: 7px;
-}
-.gly{
-  font-size: 4px;
-  color: #828282;
-  margin-right: 20px;
-  float: right;
-}
-.gly:hover{
-  color: #F15F5F;
-}
-.business{
-  margin-left: 20px;
-}
-img{
-  object-fit:cover;
-}
+        div.row{
+          display:flex;
+          width:100%;
+        }
+
 
     </style>
+
+    <?php
+    $dVer='localhost';
+    $dUser='root';
+    $dassword='';
+    $dbName='perfumedetail';
+
+
+    $connect=mysqli_connect($dVer, $dUser, $dassword, $dbName);
+
+    if(mysqli_connect_error()){
+      echo "mysql 접속중 오류 발생";
+      echo mysqli_connect_error();
+    }
+
+    $query="SELECT * FROM detail where id=8";
+    $result=mysqli_query($connect, $query);
+    $data=mysqli_fetch_array($result);
+    ?>
+
   </head>
   <body>
     <div id="back">
@@ -221,53 +281,68 @@ img{
     <div class="container-fluid summer eng">
       <div class="row">
         <div class="col-sm-4">
-            <img src="레플리카 레이지 선데이 모닝 오 드 뚜왈렛.png" class="img-responsive"  alt="Image">
-            <div class="recommended">
-              <div class="row" style="height:100px;">
-                <div class="col-sm-4">
-                  추천1
-                </div>
-                <div class="col-sm-4">
-                  추천2
-                </div>
-                <div class="col-sm-4">
-                  추천3
-                </div>
-              </div>
-            </div>
+            <img src="<?php echo $data['pimage']; ?>" class="img-responsive"  alt="Image">
+
         </div>
         <div class="col-sm-8">
           <div>
-            <h4>Name: </h4>
-            <h4>Brand: </h4>
-            <h4>Series: </h4>
-            <h4>Perfume: </h4>
+            <h4>Name:
+              <?php
+                echo $data['pname'];
+              ?></h4>
+            <h4>Brand:
+              <?php
+                echo $data['pbrand'];
+              ?></h4>
+            <h4>Category:
+              <?php
+                echo $data['ptag1'];
+              ?></h4>
           </div>
 
-            <div class="row">
                 <div id="review">
                   <h5>~REVIEW~</h5>
+                  <div class="review_row">
+                    <form>
+                      <textarea type="text" name="new_review" rows="2" cols="60" placeholder="Write your thinks"></textarea>
+                      <button type="submit" onclick="submitReview()">등록</button>
+                    </form>
+                  </div>
+                  <div class="review_row">
+                    <div class="review_content">
+                      <?php
 
+                    </div>
+                    <div class="review_date">
+
+                    </div>
+                  </div>
+                  </div>
                 </div>
 
-            </div>
+        </div>
+
         </div>
       </div>
     </div>
   </div>
 <div class="details">
-<div class="row">
+  <div class="container-fluid summer eng">
+    <div class="row">
       <div class="col-sm-6">
           <div class="details">
-            <div id="map_canvas" style="width: 100%; height: 400px; margin:0px;"></div>
+            <div id="map_canvas" style="width: 100%; height: 550px; margin:0px;"></div>
           </div>
         </div>
         <div class="col-sm-6">
           <div class="details">
-            <img src="레플리카 레이지 선데이 모닝 오 드 뚜왈렛 노트.png" alt="노트" class="img-responsive">
+            <div style="width: 100%; margin:0px;">
+              <img src="<?php echo $data["pnote"]; ?>" class="img-responsive" alt="Image">
+            </div>
           </div>
         </div>
-</div>
+      </div>
+    </div>
   </div>
 
 
