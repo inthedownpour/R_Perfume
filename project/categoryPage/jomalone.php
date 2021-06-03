@@ -15,13 +15,13 @@
 
      <link rel="stylesheet" type="text/css" href="./css/nav.css">
      <link rel="stylesheet" type="text/css" href="./css/footer.css">
-     <link rel="stylesheet" type="text/css" href="./css/category.css">
+     <link rel="stylesheet" type="text/css" href="./css/category.css?a">
+
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+     <script src="./js/categoryPage.js"></script>
 
 
-     <style>
-
-
-     </style>
    </head>
    <body>
 
@@ -60,32 +60,30 @@
      $query = "select * from detail limit 20,10";
      $result = mysqli_query($connect, $query);
       ?>
-<div class="row">
-    <div class="container brandMenu">
-      <span><a href="all.php">All</a></span>
-      <span><a href="diptyque.php">딥디크</a></span>
-      <span><a href="maison.php">메종마르지엘라</a></span>
-      <span><a href="#">바이레도</a></span>
-      <span><a href="santamaria.php">산타마리아노벨라</a></span>
-      <span><a href="aesop.php">이솝</a></span>
-      <span><a href="jomalone.php">조말론</a></span>
-    </div>
-</div>
+      <div class="container brandMenu">
+        <span><button  class="btnMenu" id="menuAll" onclick="pageAll()">All</button></span>
+        <span><button  class="btnMenu" onclick="pageDiptyque()">딥디크</button></span>
+        <span><button  class="btnMenu" onclick="pageMaison()">메종 마르지엘라</button></span>
+        <span><button  class="btnMenu" onclick="pageDiptyque()">바이레도</button></span>
+        <span><button  class="btnMenu" onclick="pageSantamaria()">산타마리아노벨라</button></span>
+        <span><button  class="btnMenu" onclick="pageAesop()">이솝</button></span>
+        <span><button  class="btnMenu" onclick="pageJomalone()">조말론</button></span>
+      </div>
 
 <div class="container">
   <div class="row">
-      <div class="categoryBox jomalone">
-           <?php
-            while ($data = mysqli_fetch_array($result)) {
-                ?>
-             <div style="text-align:center; float:left;height:300; width:250px;">
-               <img src="<?php echo $data["pimage"]?>" style="display:block; height:250px; width:200; margin: 0px auto ;margin-top:40px;" class="img-responsive" alt = "Image">
-               <?php echo $data["pname"]?></div>
+    <div class="categoryBox all">
+         <?php
+          while ($data = mysqli_fetch_array($result)) {
+              ?>
+           <div style="text-align:center; float:left;height:300; width:250px;"><a href="../P_Detail/DetailPage.php?p_id=<?php echo $data["p_id"];?>">
+             <img src="<?php echo $data["pimage"]?>" style="display:block; height:250px; width:200; margin: 0px auto ;margin-top:40px;" class="img-responsive" onMouseover="OnMouseIn(this)" onmouseout="OnMouseOut(this)" alt = "Image">
+             <?php echo $data["pname"]?></a></div>
 
-           <?php
-            }
-            ?>
-       </div>
+         <?php
+          }
+          ?>
+     </div>
 </div>
 </div>
 

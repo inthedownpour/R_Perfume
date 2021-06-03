@@ -2,23 +2,48 @@
   text-align: center;
   border-radius: 15px;
   font-family: 'Cormorant Garamond', serif;
-  border: 2px solid rgb(210, 108, 159);
-  margin-top: 20px;
+  border: 2px solid #98DFD8;
+  margin-top: 0px;
   padding-left: 50px;
   padding-bottom: 20px;
   margin-left: 50px;
 }
 
+div.row {
+  display: flex;
+  width: 50% auto;
+}
+
 .brandMenu {
-  padding-top: 140px;
+  padding-top: 150px;
+  display: flex;
+  width: 30% auto;
   /* padding-left:410px; */
 }
 
 .brandMenu span {
-  padding-left: 35px;
+  padding-left: 5px;
 }
 
-div.row {
-  display: flex;
-  width: 50% auto;
+#menuAll{
+  margin-left:60px;
+}
+
+.btnMenu:hover{
+  background-color: #9999CC;
+  color: white;
+}
+
+.btnMenu{
+  background-color:pink;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius:3px;
 }
