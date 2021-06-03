@@ -1,20 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <script src="./review_action.js"></script>
+    <script src="review_action.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="Detail_pg.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
     <title>Find Your Perfume!</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBwlNqAEil52XRPHmSVb4Luk18qQG9GqcM&sensor=false&language=en"></script>
-
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAwn-xB_WCcZ-iDeQcC0gEn7EY3HYd_uRY"></script>
+    <link rel="stylesheet" type="text/css" href="Detail_pg.css">
 <script>
   function initialize() {
 var myLatlng = new google.maps.LatLng(36.62990490050947, 127.45642593069294); // 좌표값
@@ -56,173 +55,22 @@ window.onload = initialize;
           font-family: 'Cormorant Garamond', serif;
           z-index: 1;
         }
-        .nav-up{
-          top:-40px;
-        }
-        .navbar-nav a:hover {
-          color: #F15F5F !important;
-        }
-        .navbar-brand{
-          float: left;
-          margin: 0;
-          padding: 0;
-        }
-        .navbar-nav a:link {
-          text-decoration: none;
-          color: white;
-        }
-        .row{
-          clear: both;
-        }
-        .recommend{
-          margin: 0;
-          width: 100%;
-          padding-top: 30px;
-          padding-bottom: 20px;
-          letter-spacing: 5px;
-        }
-        .dropmenu{
-          border:none;
-          border:0px;
-          margin:0px;
-          padding:0px;
+        .review_row{
+          background: #F2F2F2;
         }
 
-        .dropmenu ul{
-          list-style:none;
-          margin:0;
-          padding:0;
-        }
-
-        .dropmenu li{
-          float:left;
-          padding:0px;
-        }
-
-        .dropmenu li a{
-          display:block;
-          margin:0px;
-          text-align:center;
-          text-decoration:none;
-        }
-
-        .dropmenu li a:hover, .dropmenu ul li:hover a{
-          text-decoration:none;
-          color:white;
-        }
-
-        .dropmenu li ul{
-          display:none;
-          border:0px;
-          position:absolute;
-          z-index:200;
-          /*top:1em;
-          /*left:0;*/
-        }
-
-        .dropmenu li:hover ul{
-          display:block;
-        }
-
-        .dropmenu li li {
-          display:block;
-          float:none;
-          margin:0px;
-          padding:0px;
-          height: 50px;
-        }
-
-        .dropmenu li:hover li a{
-          background:none;
-        }
-
-        .dropmenu li ul a{
-          display:block;
-          margin:0px;
-          padding-top: 15px;
-          padding-left: 15px;
-          text-align:left;
-        }
-
-        .dropmenu li ul a:hover, .dropmenu li ul li:hover a{
-          border:0px;
-          text-decoration:none;
-        }
-
-        .dropmenu p{
-          clear:left;
-        }
-        .glyphicon{
-          font-size: 25px;
-        }
-        .summer{
-          margin-top: 20px;
-          color: #828282;
-        }
-        .eng{
-          font-family: 'Cormorant Garamond', serif;
-        }
-        .kor{
-          font-family: 'Nanum Myeongjo', serif;
-        }
-        .bg-1{
-          margin: 50px 0px 40px 0px;
-          padding : 30px 0px 30px 0px;
-          background-color: rgba(210,108,159,0.5);
-          color: #828282;
-          font-family: 'Nanum Myeongjo', serif;
-          font-size: 7px;
-        }
-        .gly{
-          font-size: 4px;
-          color: #828282;
-          margin-right: 20px;
-          float: right;
-        }
-        .gly:hover{
-          color: #F15F5F;
-        }
-        .business{
-          margin-left: 20px;
-        }
-        img{
-          object-fit:cover;
-          margin:0;
-          max-width: 100%;
-          max-height: 100%;
-        }
-
-        .details{
-          margin-top:10px;
-          margin-left:10px;
-          margin-right:10px;
-          border:5px solid rgba(210,108,159,0.5);
-          border-radius: 20px;
-          padding:12px;
-        }
-        .recommended{
-          border:5px solid rgba(210,108,159,0.5);
-          border-radius: 20px;
-        }
-        #review{
-          height:100px;
-        }
-        #first{
-          height:60px;
-          background-color: red;
-        }
-        #second{
-          height:60px;
-        }
-        #third{
-          height:60px;
-        }
-
-        div.row{
-          display:flex;
+        .review_content{
           width:100%;
+          clear:both;
+          color:black;
         }
-
+        .review_date{
+          background: #F2F2F2;
+          width:100%;
+          clear:both;
+          text-align: right;
+          color:black;
+        }
 
     </style>
 
@@ -240,7 +88,8 @@ window.onload = initialize;
       echo mysqli_connect_error();
     }
 
-    $query="SELECT * FROM detail where p_id=8";
+    $id=$_GET["id"];
+    $query="SELECT * FROM detail where p_id='$id'";
     $result=mysqli_query($connect, $query);
     $data=mysqli_fetch_array($result);
 
@@ -250,6 +99,7 @@ window.onload = initialize;
     ?>
   </head>
   <body>
+
     <div id="back">
     <div class="navbar navbar-default">
       <div class="container">
@@ -285,7 +135,7 @@ window.onload = initialize;
     <div class="container-fluid summer eng">
       <div class="row">
         <div class="col-sm-4">
-            <img src="<?php echo $data['pimage']; ?>" class="img-responsive"  alt="Image">
+            <img src="<?php echo $data['pimage']; ?>" style="margin: 0px auto;" class="img-responsive"  alt="Image">
 
         </div>
         <div class="col-sm-8">
@@ -304,15 +154,16 @@ window.onload = initialize;
               ?>
               ,
               <?php
-                echo $data['ptag1'];
+                echo $data['ptag2'];
               ?>
               </p>
             </h4>
           </div>
 
-                <div id="review">
+                <div id="reviews">
+
+
                   <h5>~REVIEW~</h5>
-                  <button type="button" onclick="on()">연결</button>
 
                   <div class="review_row">
                     <div class="review_content">
@@ -326,16 +177,19 @@ window.onload = initialize;
                        ?>
                     </div>
                   </div>
+
                   <div class="review_row">
                     <div class="review_content">
+                      nothing
                     </div>
                     <div class="review_date">
-
+                      2021-06-03
                     </div>
                   </div>
-                  <div class="review_row">
+
+                  <div>
                     <form>
-                      <textarea type="text" name="new_review" rows="2" cols="60" placeholder="Can write your review until 300 letter"></textarea><br/>
+                      <textarea type="text" name="new_review" rows="2" style="width:100%;" placeholder="Write your review"></textarea><br/>
                       <button type="submit" onclick="submitReview()">등록</button>
                     </form>
                   </div>
