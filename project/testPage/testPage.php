@@ -99,8 +99,6 @@
     </div>
   </div>
 
-
-  <!-- style="background-color:lightgrey" -->
   <div class="container-fluid">
     <div id="testStart">
       <h1>향수 추천 테스트</h1><br>
@@ -349,8 +347,7 @@
     <div class="row details">
     <h2>이솝 추천!</h2>
     <div>
-      <p>프루티와 시트러스를 선택한 당신, 상쾌하고 달콤한 향을 좋아하는군요. 시트러스향이 대표적인 브랜드 조말론 런던을 추천합니다.<br>
-        조말론은 인공적인 원료를 사용하지 않고 천연원료를 사용하며 일반적으로 향수에 사용하지 않는 원료들을 사용함으로써 다채로운 조말론만의 특별함을 느낄 수 있습니다. </p>
+      <p>풍부하고 관능적인 아로마가 특징인. 우디 노트와 흡사하지만 세련된 플로럴 향과 발사믹의 유향 내음으로 그려집니다.<br> 이솝에서 자주 사용하는 성분으로는 파촐리, 샌달우드, 프랑킨센스가 있습니다.</p>
     </div>
     <br>
     <div class="row">
@@ -361,24 +358,24 @@
     <hr>
     <div class="row details">
       <div class="col-sm-4">
-        <h3>블랙베리 앤 베이</h3>
-        <img src="img/블랙베리 앤 베이.jpg" alt="failed" class="img-responsive" style="display:block; margin: 0px auto; height:300px; width:auto">
+        <h3>휠</h3>
+        <img src="img/휠.jpg" alt="failed" class="img-responsive" style="display:block; margin: 0px auto; height:300px; width:auto">
         <br>
-        <p style="margin-left:100px; margin-right:100px;">블랙베리의 상큼하며 달콤한 과일향 이후에 시원한 향 <br>사계절 사용하기 좋은 향</p>
+        <p style="margin-left:100px; margin-right:100px;">자연 그대로의 나무향</p>
       </div>
 
       <div class="col-sm-4">
-        <h3>라임 바질 앤 만다린</h3>
-        <img src="img/라임 바질 앤 만다린.jpg" alt="failed" class="img-responsive" style="display:block; margin: 0px auto; height:300px; width:auto">
+        <h3>로주</h3>
+        <img src="img/로주.jpg" alt="failed" class="img-responsive" style="display:block; margin: 0px auto; height:300px; width:auto">
         <br>
-        <p style="margin-left:100px; margin-right:100px;">달콤, 상큼한 향이 첫 향과 잔향의 우디함</p>
+        <p style="margin-left:100px; margin-right:100px;">자연 그대로의 장미향</p>
       </div>
 
       <div class="col-sm-4">
-        <h3>넥타린 블로썸 앤 허니</h3>
-        <img src="img/넥타린 블로썸 앤 허니.png" alt="failed" class="img-responsive" style="display:block; margin: 0px auto; height:300px; width:auto">
+        <h3>마라캐시</h3>
+        <img src="img/마라캐시.jpg" alt="failed" class="img-responsive" style="display:block; margin: 0px auto; height:300px; width:auto">
         <br>
-        <p style="margin-left:100px; margin-right:100px;">복숭아의 달콤함에 꿀을 섞어 달달과 부드러움의 완벽한 조화</p>
+        <p style="margin-left:100px; margin-right:100px;">스파이시한 샌달우드의 향</p>
       </div>
     </div>
     <div><button class="btn_gotobrand" onclick="gotoAesop()" style="margin-top:100px">이솝 보러가기</button></div>
@@ -395,8 +392,7 @@
     <div class="row details">
     <h2>메종마르지엘라 추천!</h2>
     <div>
-      <p>프루티와 시트러스를 선택한 당신, 상쾌하고 달콤한 향을 좋아하는군요. 시트러스향이 대표적인 브랜드 조말론 런던을 추천합니다.<br>
-        조말론은 인공적인 원료를 사용하지 않고 천연원료를 사용하며 일반적으로 향수에 사용하지 않는 원료들을 사용함으로써 다채로운 조말론만의 특별함을 느낄 수 있습니다. </p>
+      <p>아로마와 바닐라를 선택한 당신에게 메종 마르지엘라를 추천합니다! 메종마르지엘라는 부드러운 향으로 유명합니다. <br>부드럽고 고급진 향이라 할 수 있습니다.  고혹적이면서 매력적인 향수입니다.</p>
     </div>
     <div class="row">
       <div id="columnchart_vanilla" style="width: 900px; height: 300px; margin:0px auto; margin-bottom:200px;"></div>
@@ -405,24 +401,24 @@
 
     <div class="row details">
       <div class="col-sm-4">
-        <h3>블랙베리 앤 베이</h3>
-        <img src="img/블랙베리 앤 베이.jpg" alt="failed" class="img-responsive" style="display:block; margin: 0px auto; height:300px; width:auto">
+        <h3>버블 바스</h3>
+        <img src="img/버블 바스.png" alt="failed" class="img-responsive" style="display:block; margin: 0px auto; height:300px; width:auto">
         <br>
-        <p style="margin-left:100px; margin-right:100px;">블랙베리의 상큼하며 달콤한 과일향 이후에 시원한 향 <br>사계절 사용하기 좋은 향</p>
+        <p style="margin-left:100px; margin-right:100px;">거품 목욕의 향 <br>사계절 사용하기 좋은 향</p>
       </div>
 
       <div class="col-sm-4">
-        <h3>라임 바질 앤 만다린</h3>
-        <img src="img/라임 바질 앤 만다린.jpg" alt="failed" class="img-responsive" style="display:block; margin: 0px auto; height:300px; width:auto">
+        <h3>세일링 데이</h3>
+        <img src="img/세일링 데이.png" alt="failed" class="img-responsive" style="display:block; margin: 0px auto; height:300px; width:auto">
         <br>
-        <p style="margin-left:100px; margin-right:100px;">달콤, 상큼한 향이 첫 향과 잔향의 우디함</p>
+        <p style="margin-left:100px; margin-right:100px;">바다를 담은 향</p>
       </div>
 
       <div class="col-sm-4">
-        <h3>넥타린 블로썸 앤 허니</h3>
-        <img src="img/넥타린 블로썸 앤 허니.png" alt="failed" class="img-responsive" style="display:block; margin: 0px auto; height:300px; width:auto">
+        <h3>비치 워크</h3>
+        <img src="img/비치 워크.png" alt="failed" class="img-responsive" style="display:block; margin: 0px auto; height:300px; width:auto">
         <br>
-        <p style="margin-left:100px; margin-right:100px;">복숭아의 달콤함에 꿀을 섞어 달달과 부드러움의 완벽한 조화</p>
+        <p style="margin-left:100px; margin-right:100px;">여름 바다를 따라 산책하는 듯한 향</p>
       </div>
     </div>
     <div><button class="btn_gotobrand" onclick="gotoMaison()" style="margin-top:100px">메종마르지엘라 보러가기</button></div>

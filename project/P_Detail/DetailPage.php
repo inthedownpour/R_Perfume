@@ -88,10 +88,10 @@ window.onload = initialize;
     </style>
 
     <?php
-    $dVer='localhost';
-    $dUser='root';
-    $dassword='';
-    $dbName='perfumedetail';
+    $dVer='localhost:3307';
+    $dUser='perfume_category';
+    $dassword='category';
+    $dbName='perfume_category';
 
 
     $connect=mysqli_connect($dVer, $dUser, $dassword, $dbName);
@@ -101,15 +101,15 @@ window.onload = initialize;
       echo mysqli_connect_error();
     }
 
-    //$id=$_GET["id"];
-    //$query="SELECT * FROM detail where p_id='$id'";
-    $query="SELECT * FROM detail where p_id='8'";
-    $result=mysqli_query($connect, $query);
+    $p_id=$_GET["p_id"];
+    $query="SELECT * FROM detail where p_id='$p_id'";
+    //$query="SELECT * FROM detail where p_id='8'";
+    $result=mysqli_query($connect, $query)or die(mysqli_error($connect));
     $data=mysqli_fetch_array($result);
 
-    $query2="SELECT * FROM review";
-    $result2=mysqli_query($connect, $query2);
-    $data2=mysqli_fetch_array($result2);
+    // $query2="SELECT * FROM review";
+    // $result2=mysqli_query($connect, $query2)or die(mysqli_error($connect));
+    // $data2=mysqli_fetch_array($result2);
     ?>
   </head>
   <body>
