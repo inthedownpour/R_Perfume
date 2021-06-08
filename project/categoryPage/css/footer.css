@@ -1,0 +1,23 @@
+.bg-1 {
+  margin: 50px 0px 40px 0px;
+  padding: 30px 0px 30px 0px;
+  background-color: rgba(205, 136, 175, 0.7);
+  color: #828282;
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: 7px;
+}
+
+.gly {
+  font-size: 4px;
+  color: #828282;
+  margin-right: 20px;
+  float: right;
+}
+
+.gly:hover {
+  color: #F15F5F;
+}
+
+.business {
+  margin-left: 20px;
+}

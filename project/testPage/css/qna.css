@@ -1,10 +1,4 @@
-/* #qFirst {
-  display: none;
-  text-align: center;
-  margin-top: 150px;
-  padding-bottom: 10px;
-  font-family: 'Nanum Myeongjo', serif;
-} */
+
 .qna {
   display: none;
   text-align: center;
@@ -24,41 +18,6 @@ button img {
   width: 330px;
 }
 
-/* .btnQsex{
-  background-color: #4CAF50;
-  border: none;
-  color: white;
-  padding: 16px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  transition-duration: 0.4s;
-  cursor: pointer;
-} */
-
-/* .woman {
-  background-color: white;
-  color: black;
-  border: 2px solid #f44336;
-}
-
-.woman:hover {
-  background-color: #f44336;
-  color: white;
-}
-
-.man {
-  background-color: white;
-  color: black;
-  border: 2px solid #008CBA;
-}
-
-.man:hover {
-  background-color: #008CBA;
-  color: white;
-} */
 
 .btnQsex {
   padding: 14px 40px;
@@ -76,4 +35,21 @@ button img {
 #qSex {
   margin-bottom: 480px;
   margin-top: 200px;
+}
+.btn_gotobrand{
+  background-color:#9999CC;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius:3px;
+}
+.btn_gotobrand:hover{
+  background-color: #4B4B4B;
+  color: white;
 }

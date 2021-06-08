@@ -297,8 +297,8 @@
           <div class="collapse  navbar-collapse" id="myNav">
             <ul class="nav navbar-nav navbar-right">
             <!--  <li class="menu search-button"><a href="" style="color: white;">SEARCH</a></li>-->
-              <li class="menu"><a href="" style="color: white;">TEST</a></li>
-              <li class="menu"><a href="" style="color: white;">CATEGORY</a>
+            <li class="menu"><a href="../testPage/testPage.php" style="color: white;" class="subMenu">TEST</a></li>
+            <li class="menu"><a href="../categoryPage/all.php" style="color: white;" class="subMenu">CATEGORY</a>
                 <ul>
                   <li><a href="#">BRAND</a></li>
                   <li><a href="#">SERIES</a></li>
