@@ -101,9 +101,9 @@ window.onload = initialize;
       echo mysqli_connect_error();
     }
 
-    $id=$_GET["id"];
-    $query="SELECT * FROM detail where p_id='$id'";
-    //$query="SELECT * FROM detail where p_id='8'";
+    //$id=$_GET["id"];
+    //$query="SELECT * FROM detail where p_id='$id'";
+    $query="SELECT * FROM detail where p_id='8'";
     $result=mysqli_query($connect, $query);
     $data=mysqli_fetch_array($result);
 
