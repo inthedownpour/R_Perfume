@@ -1,10 +1,10 @@
 <meta charset="utf-8" />
 <?php
+include "connect.php";
 
 $id=$_POST['id'];
 $pw=$_POST['pw'];
 
-$connect = mysqli_connect("127.0.0.1","root","1234","perfume");
 
 if($id==""||$pw==""){
   ?>
