@@ -2,10 +2,10 @@
   error_reporting(1);
   ini_set("display_errors",1);
 
-  $dVer='localhost';
+  $dVer='localhost:3307';
   $dUser='root';
-  $dassword='';
-  $dbName='perfumedetail';
+  $dassword='111111';
+  $dbName='perfume_category';
 
   $connect=mysqli_connect($dVer, $dUser, $dassword, $dbName);
 

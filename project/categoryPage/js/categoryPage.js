@@ -33,3 +33,7 @@ function OnMouseIn(elem) {
 function OnMouseOut(elem) {
   elem.style.border = "";
 }
+
+function liked(){
+       alert("찜리스트에 저장되었습니다.");
+}

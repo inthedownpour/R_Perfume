@@ -14,7 +14,6 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" type="text/css" href="Navbar.css">
   <style>
-
   *{
     margin: 0px;
     padding: 0px;
@@ -167,6 +166,12 @@
   }
 
   </style>
+  <script>
+    function toLoginPage(){
+      alert("회원가입이 완료되었습니다.")
+      location.href='loginPage.php'
+    }
+  </script>
 </head>
 <body>
   <div class="navbar navbar-default">
@@ -195,7 +200,8 @@
     </div>
 
     <div class="container-fluid">
-      <form name="join" class="joinForm"  method="post" action="save_mem.php">
+      <form name="join" class="joinForm">
+          <!-- <form name="join" class="joinForm"  method="post" action="save_mem.php"> -->
         <h2>JOIN</h2>
         <div class="nameForm">
           <input type="text" class="name" placeholder="NAME" name="name">
@@ -209,7 +215,7 @@
         <div class="numberForm">
           <input type="text" class="number" placeholder="PHONE NUMBER" name="phone">
         </div>
-        <input type="submit" class="btn" value="JOIN US">
+        <input type="button" class="btn" value="JOIN US" onclick="toLoginPage()">
       </form>
     </div>
     <div class="container-fluid bg-1">

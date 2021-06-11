@@ -102,13 +102,9 @@ session_start(); ?>
                 <!--  <li class="menu search-button"><a href="" style="color: white;">SEARCH</a></li>-->
                 <li class="menu"><a href="../testPage/testPage.php" style="color: white;" class="subMenu">TEST</a></li>
                 <li class="menu"><a href="../categoryPage/all.php" style="color: white;" class="subMenu">CATEGORY</a>
-                    <ul>
-                      <li><a href="#">BRAND</a></li>
-                      <li><a href="#">SERIES</a></li>
-                    </ul>
                   </li>
-                  <li class="menu"><a href="choosePage.php" style="color: white;">MY PAGE</a></li>
-                  <li class="menu"><a href="choosePage2.php" class="glyphicon glyphicon-heart" style="color: white;"></a></li>
+                  <li class="menu"><a href="mypage.php" style="color: white;">MY PAGE</a></li>
+                  <li class="menu"><a href="likedlistpage.php" class="glyphicon glyphicon-heart" style="color: white;"></a></li>
                 </ul>
               </div>
             </div>
@@ -136,14 +132,14 @@ session_start(); ?>
           </div>
           <div class="col-sm-12 list">
             <div class="col-sm-2">
-              <a href=""><img src="프리지아.jpg" width="80px" height="80px"></img></a>
+              <a href=""><img src="가데니아.jpg" width="80px" height="80px"></img></a>
             </div>
             <div class="col-sm-1"></div>
             <div class="col-sm-4">
               <p class="kor per"> 산타마리아노벨라 </p>
             </div>
             <div class="col-sm-5">
-              <p class="kor per"> 프리지아 </p>
+              <p class="kor per"> 가데니아 </p>
             </div>
           </div>
         </div>

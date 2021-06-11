@@ -73,15 +73,15 @@ session_start(); ?>
       <div class="row">
         <div class="col-sm-4 cate">
           <p> <h3 class="eng">Citrus</h3> <br><span class="kor">상큼한 시트러스 계열의 향수로 여름의 더위를 덜어내보세요.<span></p><br>
-            <a href=""><img src="오 드 뚜왈렛 오 데 썽.jpg" class="img-responsive" style="width:100%" alt="Image"></a>
+            <a href="../categoryPage/diptyque.php"><img src="오 드 뚜왈렛 오 데 썽.jpg" class="img-responsive" style="width:100%" alt="Image"></a>
           </div>
           <div class="col-sm-4 cate">
             <p> <h3 class="eng">Wood</h3><br><span class="kor"> 깔끔한 우드 계열의 향수를 통해 여름 휴가의 기분을 느껴보세요.</span></p><br>
-            <a href=""><img src="아코드 우드 오 드 퍼퓸.jpg" class="img-responsive" style="width:100%; object-fit: fill;" alt="Image"></a>
+            <a href="../categoryPage/jomalone.php"><img src="아코드 우드 오 드 퍼퓸.jpg" class="img-responsive" style="width:100%; object-fit: fill;" alt="Image"></a>
           </div>
           <div class="col-sm-4 cate">
             <p> <h3 class="eng">Floral</h3><br> <span class="kor">무겁지 않은 플로럴 계열의 향수를 통해 여름의 생기를 느껴보세요.</span></p><br>
-            <a href=""><img src="프리지아.jpg" class="img-responsive" style="width:100%" alt="Image"></a>
+            <a href="../categoryPage/santamaria.php"><img src="프리지아.jpg" class="img-responsive" style="width:100%" alt="Image"></a>
           </div>
         </div>
       </div>
