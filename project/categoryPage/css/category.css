@@ -47,3 +47,17 @@ div.row {
   cursor: pointer;
   border-radius:3px;
 }
+
+.btnLike{
+  border: none;
+  border-radius:1000px;
+  margin-top:20px;
+  margin-left:5px;
+  background-color: lightgrey;
+}
+
+.likelogo{
+  font-size:13px;
+  color:white;
+  padding-top:4px;
+}

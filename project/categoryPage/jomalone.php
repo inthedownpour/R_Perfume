@@ -78,7 +78,7 @@
               ?>
            <div style="text-align:center; float:left;height:300; width:250px;"><a href="../P_Detail/DetailPage.php?p_id=<?php echo $data["p_id"];?>">
              <img src="<?php echo $data["pimage"]?>" style="display:block; height:250px; width:200; margin: 0px auto ;margin-top:40px;" class="img-responsive" onMouseover="OnMouseIn(this)" onmouseout="OnMouseOut(this)" alt = "Image">
-             <?php echo $data["pname"]?></a></div>
+             <?php echo $data["pname"]?></a>&nbsp<button type="button" onclick="liked()" class="btnLike" style=""><span class="glyphicon glyphicon-heart likelogo"></span></div>
 
          <?php
           }
