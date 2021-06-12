@@ -128,3 +128,22 @@
   .subMenu {
     color: white;
   }
+  .eng{
+    font-family: 'Cormorant Garamond', serif;
+  }
+  .kor{
+    font-family: 'Nanum Myeongjo', serif;
+  }
+
+  .gly{
+    font-size: 4px;
+    color: #828282;
+    margin-right: 20px;
+    float: right;
+  }
+  .gly:hover{
+    color: #F15F5F;
+  }
+  .business{
+    margin-left: 20px;
+  }

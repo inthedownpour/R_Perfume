@@ -13,7 +13,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="stylesheet" href="./css/footer.css">
+  <link rel="stylesheet" href="./css/footer.css?a">
   <link rel="stylesheet" href="./css/testStart.css">
   <link rel="stylesheet" href="./css/navbar.css?a">
   <link rel="stylesheet" href="./css/qna.css?a">
@@ -85,14 +85,9 @@
           <ul class="nav navbar-nav navbar-right">
             <!-- <li class="menu search-button"><a href="" style="color: white;">SEARCH</a></li> -->
             <li class="menu"><a href="testPage.php" style="color: white;">TEST</a></li>
-            <li class="menu"><a href="../categoryPage/all.php" style="color: white;">CATEGORY</a>
-              <ul>
-                <li><a href="#">BRAND</a></li>
-                <li><a href="#">SERIES</a></li>
-              </ul>
-            </li>
-            <li class="menu"><a href="" style="color: white;">MY PAGE</a></li>
-            <li class="menu"><a href="" class="glyphicon glyphicon-heart" style="color: white;"></a></li>
+            <li class="menu"><a href="../categoryPage/all.php" style="color: white;">CATEGORY</a></li>
+            <li class="menu"><a href="../mainPage/myPage.php" style="color: white;">MY PAGE</a></li>
+            <li class="menu"><a href="../mainPage/likedlistPage.php" class="glyphicon glyphicon-heart" style="color: white;"></a></li>
           </ul>
         </div>
       </div>

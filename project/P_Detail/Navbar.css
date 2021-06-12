@@ -110,3 +110,40 @@
 .dropmenu p{
   clear:left;
 }
+
+
+  .glyphicon{
+    font-size: 25px;
+  }
+  .summer{
+    margin-top: 20px;
+    color: #828282;
+  }
+  .subMenu:visited{
+    color: white;
+  }
+  .subMenu:active{
+    color: white;
+  }
+  .subMenu {
+    color: white;
+  }
+  .eng{
+    font-family: 'Cormorant Garamond', serif;
+  }
+  .kor{
+    font-family: 'Nanum Myeongjo', serif;
+  }
+
+  .gly{
+    font-size: 4px;
+    color: #828282;
+    margin-right: 20px;
+    float: right;
+  }
+  .gly:hover{
+    color: #F15F5F;
+  }
+  .business{
+    margin-left: 20px;
+  }

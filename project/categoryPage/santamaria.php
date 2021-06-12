@@ -42,14 +42,9 @@
                  <ul class="nav navbar-nav navbar-right">
                    <!-- <li class="menu search-button"><a href="" style="color: white;">SEARCH</a></li> -->
                    <li class="menu"><a href="../testPage/testPage.php" style="color: white;" class="subMenu">TEST</a></li>
-                   <li class="menu"><a href="all.php" style="color: white;" class="subMenu">CATEGORY</a>
-                     <ul>
-                       <li><a href="#">BRAND</a></li>
-                       <li><a href="#">SERIES</a></li>
-                     </ul>
-                   </li>
-                   <li class="menu"><a href="loginPage.html" style="color: white;">MY PAGE</a></li>
-                   <li class="menu"><a href="" class="glyphicon glyphicon-heart" style="color: white;"></a></li>
+                   <li class="menu"><a href="all.php" style="color: white;" class="subMenu">CATEGORY</a></li>
+                   <li class="menu"><a href="../mainPage/myPage.php" style="color: white;">MY PAGE</a></li>
+                   <li class="menu"><a href="../mainPage/likedlistPage.php" class="glyphicon glyphicon-heart" style="color: white;"></a></li>
                  </ul>
                </div>
              </div>
@@ -79,7 +74,7 @@
               ?>
            <div style="text-align:center; float:left;height:300; width:250px;"><a href="../P_Detail/DetailPage.php?p_id=<?php echo $data["p_id"];?>">
              <img src="<?php echo $data["pimage"]?>" style="display:block; height:250px; width:200; margin: 0px auto ;margin-top:40px;" class="img-responsive" onMouseover="OnMouseIn(this)" onmouseout="OnMouseOut(this)" alt = "Image">
-             <?php echo $data["pname"]?></a></div>
+             <?php echo $data["pname"]?></a>&nbsp<button type="button" onclick="liked()" class="btnLike" style=""><span class="glyphicon glyphicon-heart likelogo"></span></div>
 
          <?php
           }

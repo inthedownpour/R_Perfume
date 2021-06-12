@@ -12,109 +12,8 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="Navbar.css">
   <style>
-
-  .navbar {
-    padding-top: 21px;
-    padding-bottom: 30px;
-    border: 0;
-    border-radius: 0;
-    margin-bottom: 0;
-    font-size: 13px;
-    position: fixed;
-    width: 100%;
-    letter-spacing: 5px;
-    background-color: rgba(205,136,175,0.8);
-    font-family: 'Cormorant Garamond', serif;
-  }
-
-  .navbar-nav a:hover {
-    color: #F15F5F !important;
-  }
-
-  .navbar-brand{
-    float: left;
-    margin: 0;
-    padding: 0;
-  }
-
-  .navbar-nav a:link {
-    color: white;
-  }
-
-  .dropmenu{
-    border:none;
-    border:0px;
-    margin:0px;
-    padding:0px;
-  }
-
-  .dropmenu ul{
-    list-style:none;
-    margin:0;
-    padding:0;
-  }
-
-  .dropmenu li{
-    float:left;
-    padding:0px;
-  }
-
-  .dropmenu li a{
-    display:block;
-    margin:0px;
-    text-align:center;
-    text-decoration:none;
-  }
-
-  .dropmenu li a:hover, .dropmenu ul li:hover a{
-    color:white;
-    text-decoration:none;
-  }
-
-  .dropmenu li ul{
-    display:none;
-    border:0px;
-    position:absolute;
-    z-index:200;
-  }
-
-  .dropmenu li:hover ul{
-    display:block;
-  }
-
-  .dropmenu li li {
-    display:block;
-    float:none;
-    margin:0px;
-    padding:0px;
-    height: 50px;
-  }
-
-  .dropmenu li:hover li a{
-    background:none;
-  }
-
-  .dropmenu li ul a{
-    display:block;
-    margin:0px;
-    padding-top: 15px;
-    padding-left: 15px;
-    text-align:left;
-  }
-
-  .dropmenu li ul a:hover, .dropmenu li ul li:hover a{
-    border:0px;
-    text-decoration:none;
-  }
-
-  .dropmenu p{
-    clear:left;
-  }
-  .glyphicon{
-    font-size: 25px;
-  }
-
   *{
     margin: 0px;
     padding: 0px;
@@ -266,20 +165,13 @@
     font-size: 7px;
   }
 
-  .gly{
-    font-size: 4px;
-    color: #828282;
-    margin-right: 20px;
-    float: right;
-  }
-  .gly:hover{
-    color: #F15F5F;
-  }
-  .business{
-    margin-left: 20px;
-
-  }
   </style>
+  <script>
+    function toLoginPage(){
+      alert("회원가입이 완료되었습니다.")
+      location.href='loginPage.php'
+    }
+  </script>
 </head>
 <body>
   <div class="navbar navbar-default">
@@ -298,12 +190,7 @@
             <ul class="nav navbar-nav navbar-right">
             <!--  <li class="menu search-button"><a href="" style="color: white;">SEARCH</a></li>-->
             <li class="menu"><a href="../testPage/testPage.php" style="color: white;" class="subMenu">TEST</a></li>
-            <li class="menu"><a href="../categoryPage/all.php" style="color: white;" class="subMenu">CATEGORY</a>
-                <ul>
-                  <li><a href="#">BRAND</a></li>
-                  <li><a href="#">SERIES</a></li>
-                </ul>
-              </li>
+            <li class="menu"><a href="../categoryPage/all.php" style="color: white;" class="subMenu">CATEGORY</a></li>
               <li class="menu"><a href="choosePage.php" style="color: white;">MY PAGE</a></li>
               <li class="menu"><a href="choosePage2.php" class="glyphicon glyphicon-heart" style="color: white;"></a></li>
             </ul>
@@ -311,8 +198,10 @@
         </div>
       </div>
     </div>
+
     <div class="container-fluid">
-      <form name="join" class="joinForm"  method="post" action="save_mem.php">
+      <form name="join" class="joinForm">
+          <!-- <form name="join" class="joinForm"  method="post" action="save_mem.php"> -->
         <h2>JOIN</h2>
         <div class="nameForm">
           <input type="text" class="name" placeholder="NAME" name="name">
@@ -326,7 +215,7 @@
         <div class="numberForm">
           <input type="text" class="number" placeholder="PHONE NUMBER" name="phone">
         </div>
-        <input type="submit" class="btn" value="JOIN US">
+        <input type="button" class="btn" value="JOIN US" onclick="toLoginPage()">
       </form>
     </div>
     <div class="container-fluid bg-1">

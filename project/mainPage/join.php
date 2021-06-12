@@ -1,14 +1,8 @@
 <?php
-$conn = mysqli_connect(
-  'localhost',
-  'root',//사용자id
-  '1234',//비밀번호
-  'perfume'//db이
-);
+include "connect.php";
 
-$sql = "SELECT * FROM member";
+$sql = "SELECT * FROM mem"; //member->mem 수정
 $result = mysqli_query($conn, $sql);
-
 ?>
 
 <html>

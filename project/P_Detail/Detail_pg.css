@@ -31,33 +31,32 @@ div.row{
   width:100%;
 }
 
-.bg-1 {
-  /* position: absolute;
-  top: 75%; */
-  margin-bottom: 40px;
-  width: 100%;
-  padding: 30px 0px 30px 0px;
-  background-color: rgba(210, 108, 159, 0.5);
-  color: #828282;
-  font-family: 'Nanum Myeongjo', serif;
-  font-size: 7px;
-}
+        .review_row{
+          padding-top: 8px;
+          padding-bottom: 8px;
+          padding-left: 6px;
+          padding-right: 10px;
+          background:#FBEFF2;
+          color: black;
+        }
 
-.gly {
-  font-size: 4px;
-  color: #828282;
-  margin-right: 20px;
-  float: right;
-}
+        .review_content{
+          width:100%;
+          clear:both;
+          color:black;
+        }
+        .review_date{
+          background: #FBEFF2;
+          width:100%;
+          clear:both;
+          text-align: right;
+          color:black;
+        }
 
-.gly:hover {
-  color: #F15F5F;
-}
-
-.glyphicon {
-  font-size: 25px;
-}
-
-.business {
-  margin-left: 20px;
-}
+        #btn_coment{
+          background-color: #F5A9BC;
+          color:white;
+          border:none;
+          border-radius: 5px;
+          width: 55px;
+        }
