@@ -32,13 +32,12 @@
                  <span class="icon-bar"></span>
                  <span class="icon-bar"></span>
                </button>
-               <a class="navbar-brand" href="mainPage.html">
+               <a class="navbar-brand" href="mainPage.php">
                  <img src="perfume.png" id="brand" class="img-responsive"></img></a>
              </div>
              <div class="dropmenu">
                <div class="collapse  navbar-collapse" id="myNav">
                  <ul class="nav navbar-nav navbar-right">
-                   <li class="menu search-button"><a href="" style="color: white;">SEARCH</a></li>
                    <li class="menu"><a href="../testPage/testPage.php" style="color: white;" class="subMenu">TEST</a></li>
                    <li class="menu"><a href="all.php" style="color: white;" class="subMenu">CATEGORY</a></li>
                    <li class="menu"><a href="../mainPage/myPage.php" style="color: white;">MY PAGE</a></li>
@@ -58,7 +57,7 @@
         <span><button  class="btnMenu" id="menuAll" onclick="pageAll()">All</button></span>
         <span><button  class="btnMenu" onclick="pageDiptyque()">딥디크</button></span>
         <span><button  class="btnMenu" onclick="pageMaison()">메종 마르지엘라</button></span>
-        <span><button  class="btnMenu" onclick="pageDiptyque()">바이레도</button></span>
+        <span><button  class="btnMenu" onclick="pageByredo()">바이레도</button></span>
         <span><button  class="btnMenu" onclick="pageSantamaria()">산타마리아노벨라</button></span>
         <span><button  class="btnMenu" onclick="pageAesop()">이솝</button></span>
         <span><button  class="btnMenu" onclick="pageJomalone()">조말론</button></span>

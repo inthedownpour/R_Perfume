@@ -16,7 +16,6 @@
      <link rel="stylesheet" type="text/css" href="./css/nav.css">
      <link rel="stylesheet" type="text/css" href="./css/footer.css">
      <link rel="stylesheet" type="text/css" href="./css/category.css?a">
-
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
      <script src="./js/categoryPage.js"></script>
@@ -33,13 +32,12 @@
                  <span class="icon-bar"></span>
                  <span class="icon-bar"></span>
                </button>
-                 <a class="navbar-brand" href="../mainPage/mainPage.php">
+               <a class="navbar-brand" href="mainPage.php">
                  <img src="perfume.png" id="brand" class="img-responsive"></img></a>
              </div>
              <div class="dropmenu">
                <div class="collapse  navbar-collapse" id="myNav">
                  <ul class="nav navbar-nav navbar-right">
-                   <!-- <li class="menu search-button"><a href="" style="color: white;">SEARCH</a></li> -->
                    <li class="menu"><a href="../testPage/testPage.php" style="color: white;" class="subMenu">TEST</a></li>
                    <li class="menu"><a href="all.php" style="color: white;" class="subMenu">CATEGORY</a></li>
                    <li class="menu"><a href="../mainPage/myPage.php" style="color: white;">MY PAGE</a></li>
@@ -50,37 +48,35 @@
            </div>
          </div>
 
-         <?php
-         $query = "select * from detail";
-         $result = mysqli_query($connect, $query);
-          ?>
-
-
-            <div class="container brandMenu">
-              <span><button  class="btnMenu" id="menuAll" onclick="pageAll()">All</button></span>
-              <span><button  class="btnMenu" onclick="pageDiptyque()">딥디크</button></span>
-              <span><button  class="btnMenu" onclick="pageMaison()">메종 마르지엘라</button></span>
-              <span><button  class="btnMenu" onclick="pageByredo()">바이레도</button></span>
-              <span><button  class="btnMenu" onclick="pageSantamaria()">산타마리아노벨라</button></span>
-              <span><button  class="btnMenu" onclick="pageAesop()">이솝</button></span>
-              <span><button  class="btnMenu" onclick="pageJomalone()">조말론</button></span>
-            </div>
-
+   <?php
+    //데이터베이스에서 가져오기
+     $query = "select * from detail limit 40,10";
+     $result = mysqli_query($connect, $query);
+      ?>
+      <div class="container brandMenu">
+        <span><button  class="btnMenu" id="menuAll" onclick="pageAll()">All</button></span>
+        <span><button  class="btnMenu" onclick="pageDiptyque()">딥디크</button></span>
+        <span><button  class="btnMenu" onclick="pageMaison()">메종 마르지엘라</button></span>
+        <span><button  class="btnMenu" onclick="pageByredo()">바이레도</button></span>
+        <span><button  class="btnMenu" onclick="pageSantamaria()">산타마리아노벨라</button></span>
+        <span><button  class="btnMenu" onclick="pageAesop()">이솝</button></span>
+        <span><button  class="btnMenu" onclick="pageJomalone()">조말론</button></span>
+      </div>
 
 <div class="container">
   <div class="row">
-      <div class="categoryBox all">
-           <?php
-            while ($data = mysqli_fetch_array($result)) {
-                ?>
-             <div style="text-align:center; float:left;height:300; width:250px;"><a href="../P_Detail/DetailPage.php?p_id=<?php echo $data["p_id"];?>">
-               <img src="<?php echo $data["pimage"]?>" style="display:block; height:250px; width:200; margin: 0px auto ;margin-top:40px;" class="img-responsive" onMouseover="OnMouseIn(this)" onmouseout="OnMouseOut(this)" alt = "Image">
-               <?php echo $data["pname"]?></a>&nbsp<button type="button" onclick="liked()" class="btnLike" style=""><span class="glyphicon glyphicon-heart likelogo"></span></div>
+    <div class="categoryBox all">
+         <?php
+          while ($data = mysqli_fetch_array($result)) {
+              ?>
+           <div style="text-align:center; float:left;height:300; width:250px;"><a href="../P_Detail/DetailPage.php?p_id=<?php echo $data["p_id"];?>">
+             <img src="<?php echo $data["pimage"]?>" style="display:block; height:250px; width:200; margin: 0px auto ;margin-top:40px;" class="img-responsive" onMouseover="OnMouseIn(this)" onmouseout="OnMouseOut(this)" alt = "Image">
+             <?php echo $data["pname"]?></a>&nbsp<button type="button" onclick="liked()" class="btnLike" style=""><span class="glyphicon glyphicon-heart likelogo"></span></div>
 
-           <?php
-            }
-            ?>
-       </div>
+         <?php
+          }
+          ?>
+     </div>
 </div>
 </div>
 
@@ -99,6 +95,7 @@
     </div>
   </div>
 </div>
+
 
   </body>
  </html>

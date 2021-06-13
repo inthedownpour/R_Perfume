@@ -1,0 +1,10 @@
+CREATE TABLE `perfumedetail`.`mem` (
+`name` CHAR(20) NOT NULL,
+`id` CHAR(20) NOT NULL,
+`pw` CHAR(20) NOT NULL,
+`phone` CHAR(20) NOT NULL,
+`perfume1` CHAR(45) NOT NULL,
+`perfume2` CHAR(45) NOT NULL,
+`perfume3` CHAR(45) NOT NULL,
+PRIMARY KEY (`id`)
+) ENGINE = InnoDB;

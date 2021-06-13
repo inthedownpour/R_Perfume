@@ -5,7 +5,7 @@
   $dVer='localhost:3307';
   $dUser='root';
   $dassword='111111';
-  $dbName='perfume_category';
+  $dbName='perfumedetail';
 
   $connect=mysqli_connect($dVer, $dUser, $dassword, $dbName);
 

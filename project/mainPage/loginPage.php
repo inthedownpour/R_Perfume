@@ -162,12 +162,7 @@
             <ul class="nav navbar-nav navbar-right">
             <!--  <li class="menu search-button"><a href="" style="color: white;">SEARCH</a></li>-->
             <li class="menu"><a href="../testPage/testPage.php" style="color: white;" class="subMenu">TEST</a></li>
-            <li class="menu"><a href="../categoryPage/all.php" style="color: white;" class="subMenu">CATEGORY</a>
-                <ul>
-                  <li><a href="#">BRAND</a></li>
-                  <li><a href="#">SERIES</a></li>
-                </ul>
-              </li>
+            <li class="menu"><a href="../categoryPage/all.php" style="color: white;" class="subMenu">CATEGORY</a></li>
               <li class="menu"><a href="" style="color: white;">MY PAGE</a></li>
               <li class="menu"><a href="choosePage2.php" class="glyphicon glyphicon-heart" style="color: white;"></a></li>
             </ul>

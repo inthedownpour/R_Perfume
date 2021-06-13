@@ -87,7 +87,7 @@ window.onload = initialize;
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="mainPage.php">
+            <a class="navbar-brand" href="../mainPage/mainPage.php">
               <img src="perfume.png" id="brand" class="img-responsive"></img></a>
             </div>
             <div class="dropmenu">
@@ -96,8 +96,8 @@ window.onload = initialize;
                 <!--  <li class="menu search-button"><a href="" style="color: white;">SEARCH</a></li>-->
                 <li class="menu"><a href="../testPage/testPage.php" style="color: white;" class="subMenu">TEST</a></li>
                 <li class="menu"><a href="../categoryPage/all.php" style="color: white;" class="subMenu">CATEGORY</a></li>
-                  <li class="menu"><a href="choosePage.php" style="color: white;">MY PAGE</a></li>
-                  <li class="menu"><a href="choosePage2.php" class="glyphicon glyphicon-heart" style="color: white;"></a></li>
+                  <li class="menu"><a href="../mainPage/myPage.php" style="color: white;">MY PAGE</a></li>
+                  <li class="menu"><a href="../mainPage/likedlistPage.php" class="glyphicon glyphicon-heart" style="color: white;"></a></li>
                 </ul>
               </div>
             </div>

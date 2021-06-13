@@ -61,7 +61,7 @@
         <span><button  class="btnMenu" id="menuAll" onclick="pageAll()">All</button></span>
         <span><button  class="btnMenu" onclick="pageDiptyque()">딥디크</button></span>
         <span><button  class="btnMenu" onclick="pageMaison()">메종 마르지엘라</button></span>
-        <span><button  class="btnMenu" onclick="pageDiptyque()">바이레도</button></span>
+        <span><button  class="btnMenu" onclick="pageByredo()">바이레도</button></span>
         <span><button  class="btnMenu" onclick="pageSantamaria()">산타마리아노벨라</button></span>
         <span><button  class="btnMenu" onclick="pageAesop()">이솝</button></span>
         <span><button  class="btnMenu" onclick="pageJomalone()">조말론</button></span>

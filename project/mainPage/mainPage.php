@@ -77,7 +77,7 @@ session_start(); ?>
           </div>
           <div class="col-sm-4 cate">
             <p> <h3 class="eng">Wood</h3><br><span class="kor"> 깔끔한 우드 계열의 향수를 통해 여름 휴가의 기분을 느껴보세요.</span></p><br>
-            <a href="../categoryPage/jomalone.php"><img src="아코드 우드 오 드 퍼퓸.jpg" class="img-responsive" style="width:100%; object-fit: fill;" alt="Image"></a>
+            <a href="../categoryPage/byredo.php"><img src="아코드 우드 오 드 퍼퓸.jpg" class="img-responsive" style="width:100%; object-fit: fill;" alt="Image"></a>
           </div>
           <div class="col-sm-4 cate">
             <p> <h3 class="eng">Floral</h3><br> <span class="kor">무겁지 않은 플로럴 계열의 향수를 통해 여름의 생기를 느껴보세요.</span></p><br>

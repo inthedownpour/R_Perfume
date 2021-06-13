@@ -1,0 +1,194 @@
+INSERT INTO `detail` (`p_id`, `pname`, `pbrand`, `pimage`, `pexp`, `pnote`, `ptag1`, `ptag2`) VALUES (1, '레이지 선데이 모닝', '메종 마르지엘라', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EB%A9%94%EC%A2%85%20%EB%A7%88%EB%A5%B4%EC%A7%80%EC%97%98%EB%9D%BC/%EB%A0%88%EC%9D%B4%EC%A7%80%20%EC%84%A0%EB%8D%B0%EC%9D%B4%20%EB%AA%A8%EB%8B%9D.png?raw=true', '갓 세탁한 시트에서 느껴지는 깨끗한 향 ','https://github.com/inthedownpour/R_Perfume/blob/main/image/%EB%A9%94%EC%A2%85%20%EB%A7%88%EB%A5%B4%EC%A7%80%EC%97%98%EB%9D%BC/%EB%A0%88%EC%9D%B4%EC%A7%80%20%EC%84%A0%EB%8D%B0%EC%9D%B4%20%EB%AA%A8%EB%8B%9D%20%EB%85%B8%ED%8A%B82.PNG?raw=true', '머스키', '로즈');
+
+INSERT INTO `detail` (`p_id`, `pname`, `pbrand`, `pimage`, `pexp`, `pnote`, `ptag1`, `ptag2`) VALUES (2, '버블 바스', '메종 마르지엘라', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EB%A9%94%EC%A2%85%20%EB%A7%88%EB%A5%B4%EC%A7%80%EC%97%98%EB%9D%BC/%EB%B2%84%EB%B8%94%20%EB%B0%94%EC%8A%A4.png?raw=true', '거품 목욕의 향', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EB%A9%94%EC%A2%85%20%EB%A7%88%EB%A5%B4%EC%A7%80%EC%97%98%EB%9D%BC/%EB%B2%84%EB%B8%94%20%EB%B0%94%EC%8A%A4%20%EB%85%B8%ED%8A%B82.PNG?raw=true', '소피', '코코넛');
+
+
+INSERT INTO `detail` (`p_id`, `pname`, `pbrand`, `pimage`, `pexp`, `pnote`, `ptag1`, `ptag2`) VALUES (3, '비치 워크', '메종 마르지엘라', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EB%A9%94%EC%A2%85%20%EB%A7%88%EB%A5%B4%EC%A7%80%EC%97%98%EB%9D%BC/%EB%B9%84%EC%B9%98%20%EC%9B%8C%ED%81%AC.png?raw=true', '여름 바다를 따라 산책하는 듯한 향', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EB%A9%94%EC%A2%85%20%EB%A7%88%EB%A5%B4%EC%A7%80%EC%97%98%EB%9D%BC/%EB%B9%84%EC%B9%98%20%EC%9B%8C%ED%81%AC%20%EB%85%B8%ED%8A%B82.PNG?raw=true', '스위트', '코코넛');
+
+
+INSERT INTO `detail` (`p_id`, `pname`, `pbrand`, `pimage`, `pexp`, `pnote`, `ptag1`, `ptag2`) VALUES (4, '세일링 데이', '메종 마르지엘라', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EB%A9%94%EC%A2%85%20%EB%A7%88%EB%A5%B4%EC%A7%80%EC%97%98%EB%9D%BC/%EC%84%B8%EC%9D%BC%EB%A7%81%20%EB%8D%B0%EC%9D%B4.png?raw=true', '바다를 담은 향', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EB%A9%94%EC%A2%85%20%EB%A7%88%EB%A5%B4%EC%A7%80%EC%97%98%EB%9D%BC/%EC%84%B8%EC%9D%BC%EB%A7%81%20%EB%8D%B0%EC%9D%B4%20%EB%85%B8%ED%8A%B82.PNG?raw=true', '마린', '아로마틱');
+
+
+
+INSERT INTO `detail` (`p_id`, `pname`, `pbrand`, `pimage`, `pexp`, `pnote`, `ptag1`, `ptag2`) VALUES (5, '스프링타임 인 어 파크', '메종 마르지엘라', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EB%A9%94%EC%A2%85%20%EB%A7%88%EB%A5%B4%EC%A7%80%EC%97%98%EB%9D%BC/%EC%8A%A4%ED%94%84%EB%A7%81%ED%83%80%EC%9E%84%20%EC%9D%B8%20%EC%96%B4%20%ED%8C%8C%ED%81%AC.png?raw=true', '봄, 산뜻하고 온화한 볕이 드는 공원의 향', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EB%A9%94%EC%A2%85%20%EB%A7%88%EB%A5%B4%EC%A7%80%EC%97%98%EB%9D%BC/%EC%8A%A4%ED%94%84%EB%A7%81%ED%83%80%EC%9E%84%20%EC%9D%B8%20%EC%96%B4%20%ED%8C%8C%ED%81%AC%20%EB%85%B8%ED%8A%B82.PNG?raw=true', '플로럴', '프레시');
+
+INSERT INTO `detail` (`p_id`, `pname`, `pbrand`, `pimage`, `pexp`, `pnote`, `ptag1`, `ptag2`) VALUES (6, '앳 더 바버스', '메종 마르지엘라', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EB%A9%94%EC%A2%85%20%EB%A7%88%EB%A5%B4%EC%A7%80%EC%97%98%EB%9D%BC/%EC%95%B3%20%EB%8D%94%20%EB%B0%94%EB%B2%84%EC%8A%A4.png?raw=true', '이발소의 공기를 담은 빈티지하고 남성적인 향', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EB%A9%94%EC%A2%85%20%EB%A7%88%EB%A5%B4%EC%A7%80%EC%97%98%EB%9D%BC/%EC%95%B3%20%EB%8D%94%20%EB%B0%94%EB%B2%84%EC%8A%A4%20%EB%85%B8%ED%8A%B82.PNG?raw=true', '프레시스파이시', '아로마틱');
+
+
+INSERT INTO `detail` (`p_id`, `pname`, `pbrand`, `pimage`, `pexp`, `pnote`, `ptag1`, `ptag2`) VALUES (7, '언더 더 레몬트리', '메종 마르지엘라', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EB%A9%94%EC%A2%85%20%EB%A7%88%EB%A5%B4%EC%A7%80%EC%97%98%EB%9D%BC/%EC%96%B8%EB%8D%94%20%EB%8D%94%20%EB%A0%88%EB%AA%AC%ED%8A%B8%EB%A6%AC.png?raw=true', '레몬나무의 향', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EB%A9%94%EC%A2%85%20%EB%A7%88%EB%A5%B4%EC%A7%80%EC%97%98%EB%9D%BC/%EC%96%B8%EB%8D%94%20%EB%8D%94%20%EB%A0%88%EB%AA%AC%ED%8A%B8%EB%A6%AC%20%EB%85%B8%ED%8A%B82.PNG?raw=true', '시트러스', NULL);
+
+INSERT INTO `detail` (`p_id`, `pname`, `pbrand`, `pimage`, `pexp`, `pnote`, `ptag1`, `ptag2`) VALUES (8, '위스퍼 인 더 라이브러리', '메종 마르지엘라', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EB%A9%94%EC%A2%85%20%EB%A7%88%EB%A5%B4%EC%A7%80%EC%97%98%EB%9D%BC/%EC%9C%84%EC%8A%A4%ED%8D%BC%20%EC%9D%B8%20%EB%8D%94%20%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC.png?raw=true', '앤틱한 도서관의 향', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EB%A9%94%EC%A2%85%20%EB%A7%88%EB%A5%B4%EC%A7%80%EC%97%98%EB%9D%BC/%EC%9C%84%EC%8A%A4%ED%8D%BC%20%EC%9D%B8%20%EB%8D%94%20%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC%20%EB%85%B8%ED%8A%B82.PNG?raw=true', '우디', '바닐라');
+
+INSERT INTO `detail` (`p_id`, `pname`, `pbrand`, `pimage`, `pexp`, `pnote`, `ptag1`, `ptag2`) VALUES (9, '재즈 클럽', '메종 마르지엘라', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EB%A9%94%EC%A2%85%20%EB%A7%88%EB%A5%B4%EC%A7%80%EC%97%98%EB%9D%BC/%EC%9E%AC%EC%A6%88%20%ED%81%B4%EB%9F%BD.png?raw=true', '재즈 클럽을 채운 칵테일과 시가의 향', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EB%A9%94%EC%A2%85%20%EB%A7%88%EB%A5%B4%EC%A7%80%EC%97%98%EB%9D%BC/%EC%9E%AC%EC%A6%88%20%ED%81%B4%EB%9F%BD%20%EB%85%B8%ED%8A%B82.PNG?raw=true', '타바코', '럼');
+
+INSERT INTO `detail` (`p_id`, `pname`, `pbrand`, `pimage`, `pexp`, `pnote`, `ptag1`, `ptag2`) VALUES (10, '플라워 마켓', '메종 마르지엘라', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EB%A9%94%EC%A2%85%20%EB%A7%88%EB%A5%B4%EC%A7%80%EC%97%98%EB%9D%BC/%ED%94%8C%EB%9D%BC%EC%9B%8C%20%EB%A7%88%EC%BC%93.png?raw=true', '플라워 마켓을 거니는 향', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EB%A9%94%EC%A2%85%20%EB%A7%88%EB%A5%B4%EC%A7%80%EC%97%98%EB%9D%BC/%ED%94%8C%EB%9D%BC%EC%9B%8C%20%EB%A7%88%EC%BC%93%20%EB%85%B8%ED%8A%B82.PNG?raw=true', '플로럴', NULL);
+
+
+
+
+
+
+
+
+
+
+
+
+INSERT INTO `detail` (`p_id`, `pname`, `pbrand`, `pimage`, `pexp`, `pnote`, `ptag1`, `ptag2`) VALUES (11, '오 드 뚜왈렛 도손', '딥디크', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EB%94%A5%EB%94%94%ED%81%AC/%EC%98%A4%20%EB%93%9C%20%EB%9A%9C%EC%99%88%EB%A0%9B%20%EB%8F%84%EC%86%90.jpg?raw=true', '재스민향과 바닷바람의향', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EB%94%A5%EB%94%94%ED%81%AC/%EC%98%A4%20%EB%93%9C%20%EB%9A%9C%EC%99%88%EB%A0%9B%20%EB%8F%84%EC%86%90%20%EB%85%B8%ED%8A%B82.jpg?raw=true', '플로럴', NULL);
+
+INSERT INTO `detail` (`p_id`, `pname`, `pbrand`, `pimage`, `pexp`, `pnote`, `ptag1`, `ptag2`) VALUES (12, '오 드 뚜왈렛 오 데 썽', '딥디크', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EB%94%A5%EB%94%94%ED%81%AC/%EC%98%A4%20%EB%93%9C%20%EB%9A%9C%EC%99%88%EB%A0%9B%20%EC%98%A4%20%EB%8D%B0%20%EC%8D%BD.jpg?raw=true', '오렌지와 시원한 주니퍼베리향', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EB%94%A5%EB%94%94%ED%81%AC/%EC%98%A4%20%EB%93%9C%20%EB%9A%9C%EC%99%88%EB%A0%9B%20%EC%98%A4%20%EB%8D%B0%20%EC%8D%BD%20%EB%85%B8%ED%8A%B82.jpg?raw=true', '플로럴', '시트러스');
+
+INSERT INTO `detail` (`p_id`, `pname`, `pbrand`, `pimage`, `pexp`, `pnote`, `ptag1`, `ptag2`) VALUES (13, '오 드 뚜왈렛 오 드 네롤리', '딥디크', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EB%94%A5%EB%94%94%ED%81%AC/%EC%98%A4%20%EB%93%9C%20%EB%9A%9C%EC%99%88%EB%A0%9B%20%EC%98%A4%20%EB%93%9C%20%EB%84%A4%EB%A1%A4%EB%A6%AC.jpg?raw=true', '향긋한 꽃향기에 시트러스가 더해진 향', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EB%94%A5%EB%94%94%ED%81%AC/%EC%98%A4%20%EB%93%9C%20%EB%9A%9C%EC%99%88%EB%A0%9B%20%EC%98%A4%20%EB%93%9C%20%EB%84%A4%EB%A1%A4%EB%A6%AC%20%EB%85%B8%ED%8A%B82.jpg?raw=true', '시트러스', NULL);
+
+INSERT INTO `detail` (`p_id`, `pname`, `pbrand`, `pimage`, `pexp`, `pnote`, `ptag1`, `ptag2`) VALUES (14, '오 드 뚜왈렛 오프레지아', '딥디크', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EB%94%A5%EB%94%94%ED%81%AC/%EC%98%A4%20%EB%93%9C%20%EB%9A%9C%EC%99%88%EB%A0%9B%20%EC%98%A4%ED%94%84%EB%A0%88%EC%A7%80%EC%95%84.jpg?raw=true', '프리지아와 후추향', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EB%94%A5%EB%94%94%ED%81%AC/%EC%98%A4%20%EB%93%9C%20%EB%9A%9C%EC%99%88%EB%A0%9B%20%EC%98%A4%ED%94%84%EB%A0%88%EC%A7%80%EC%95%84%20%EB%85%B8%ED%8A%B82.jpg?raw=true', '플로럴', NULL);
+
+INSERT INTO `detail` (`p_id`, `pname`, `pbrand`, `pimage`, `pexp`, `pnote`, `ptag1`, `ptag2`) VALUES (15, '오 드 뚜왈렛 필로시코스', '딥디크', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EB%94%A5%EB%94%94%ED%81%AC/%EC%98%A4%20%EB%93%9C%20%EB%9A%9C%EC%99%88%EB%A0%9B%20%ED%95%84%EB%A1%9C%EC%8B%9C%EC%BD%94%EC%8A%A4.jpg?raw=true', '자연과 더불어 달콤한 향', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EB%94%A5%EB%94%94%ED%81%AC/%EC%98%A4%20%EB%93%9C%20%EB%9A%9C%EC%99%88%EB%A0%9B%20%ED%95%84%EB%A1%9C%EC%8B%9C%EC%BD%94%EC%8A%A4%20%EB%85%B8%ED%8A%B82.jpg?raw=true', '프루티', '어시');
+
+
+INSERT INTO `detail` (`p_id`, `pname`, `pbrand`, `pimage`, `pexp`, `pnote`, `ptag1`, `ptag2`) VALUES (16, '오 드 퍼퓸 뗌 포', '딥디크', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EB%94%A5%EB%94%94%ED%81%AC/%EC%98%A4%20%EB%93%9C%20%ED%8D%BC%ED%93%B8%20%EB%97%8C%20%ED%8F%AC.jpg?raw=true', '파출리가 가득핀 숲의 향', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EB%94%A5%EB%94%94%ED%81%AC/%EC%98%A4%20%EB%93%9C%20%ED%8D%BC%ED%93%B8%20%EB%97%8C%20%ED%8F%AC%20%EB%85%B8%ED%8A%B82.jpg?raw=true', '어시', '우디');
+
+
+INSERT INTO `detail` (`p_id`, `pname`, `pbrand`, `pimage`, `pexp`, `pnote`, `ptag1`, `ptag2`) VALUES (17, '오 드 퍼퓸 롬브르 단 로', '딥디크', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EB%94%A5%EB%94%94%ED%81%AC/%EC%98%A4%20%EB%93%9C%20%ED%8D%BC%ED%93%B8%20%EB%A1%AC%EB%B8%8C%EB%A5%B4%20%EB%8B%A8%20%EB%A1%9C.jpg?raw=true', '블랙 커런트 잎의 시원함과 불가리안 로즈의 우아함', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EB%94%A5%EB%94%94%ED%81%AC/%EC%98%A4%20%EB%93%9C%20%ED%8D%BC%ED%93%B8%20%EB%A1%AC%EB%B8%8C%EB%A5%B4%20%EB%8B%A8%20%EB%A1%9C%20%EB%85%B8%ED%8A%B82.jpg?raw=true', '플로럴', NULL);
+
+INSERT INTO `detail` (`p_id`, `pname`, `pbrand`, `pimage`, `pexp`, `pnote`, `ptag1`, `ptag2`) VALUES (18, '오 드 퍼퓸 롬브르 베티베리오', '딥디크', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EB%94%A5%EB%94%94%ED%81%AC/%EC%98%A4%20%EB%93%9C%20%ED%8D%BC%ED%93%B8%20%EB%B2%A0%ED%8B%B0%EB%B2%A0%EB%A6%AC%EC%98%A4.jpg?raw=true', '플로리다 산 자몽과 터키산 장미의 향기로운 조화', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EB%94%A5%EB%94%94%ED%81%AC/%EC%98%A4%20%EB%93%9C%20%ED%8D%BC%ED%93%B8%20%EB%B2%A0%ED%8B%B0%EB%B2%A0%EB%A6%AC%EC%98%A4%20%EB%85%B8%ED%8A%B82.jpg?raw=true', '시트러스', '머스크');
+
+INSERT INTO `detail` (`p_id`, `pname`, `pbrand`, `pimage`, `pexp`, `pnote`, `ptag1`, `ptag2`) VALUES (19, '오 드 퍼퓸 롬브르 탐 다오', '딥디크', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EB%94%A5%EB%94%94%ED%81%AC/%EC%98%A4%20%EB%93%9C%20%ED%8D%BC%ED%93%B8%20%ED%83%90%20%EB%8B%A4%EC%98%A4.jpg?raw=true', '신성한 숲을 거니는 향', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EB%94%A5%EB%94%94%ED%81%AC/%EC%98%A4%20%EB%93%9C%20%ED%8D%BC%ED%93%B8%20%ED%83%90%20%EB%8B%A4%EC%98%A4%20%EB%85%B8%ED%8A%B82.jpg?raw=true', '어시', '우디');
+
+INSERT INTO `detail` (`p_id`, `pname`, `pbrand`, `pimage`, `pexp`, `pnote`, `ptag1`, `ptag2`) VALUES (20, '오 드 퍼퓸 플레르 드 뽀', '딥디크', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EB%94%A5%EB%94%94%ED%81%AC/%EC%98%A4%20%EB%93%9C%20%ED%8D%BC%ED%93%B8%20%ED%94%8C%EB%A0%88%EB%A5%B4%20%EB%93%9C%20%EB%BD%80.jpg?raw=true', '아이리스와 램버리, 프루티한 향', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EB%94%A5%EB%94%94%ED%81%AC/%EC%98%A4%20%EB%93%9C%20%ED%8D%BC%ED%93%B8%20%ED%94%8C%EB%A0%88%EB%A5%B4%20%EB%93%9C%20%EB%BD%80%20%EB%85%B8%ED%8A%B82.jpg?raw=true', '플로럴', '머스크');
+
+
+
+
+
+
+
+
+
+
+
+
+INSERT INTO `detail` (`p_id`, `pname`, `pbrand`, `pimage`, `pexp`, `pnote`, `ptag1`, `ptag2`) VALUES (21, '그레이프프루트 코롱', '조말론', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EC%A1%B0%EB%A7%90%EB%A1%A0/%EA%B7%B8%EB%A0%88%EC%9D%B4%ED%94%84%ED%94%84%EB%A3%A8%ED%8A%B8%20%EC%BD%94%EB%A1%B1.JPG?raw=true', '자몽향과 페퍼민트의 톡쏘는향', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EC%A1%B0%EB%A7%90%EB%A1%A0/%EA%B7%B8%EB%A0%88%EC%9D%B4%ED%94%84%ED%94%84%EB%A3%A8%ED%8A%B8%20%EC%BD%94%EB%A1%B1%20%EB%85%B8%ED%8A%B82.JPG?raw=true','시트러스', '스파이시');
+
+INSERT INTO `detail` (`p_id`, `pname`, `pbrand`, `pimage`, `pexp`, `pnote`, `ptag1`, `ptag2`) VALUES (22, '라임 바질 앤 만다린 코롱', '조말론', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EC%A1%B0%EB%A7%90%EB%A1%A0/%EB%9D%BC%EC%9E%84%20%EB%B0%94%EC%A7%88%20%EC%95%A4%20%EB%A7%8C%EB%8B%A4%EB%A6%B0%20%EC%BD%94%EB%A1%B1.JPG?raw=true', '라임향에 톡 쏘는 바질과 향기로운 백리향', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EC%A1%B0%EB%A7%90%EB%A1%A0/%EB%9D%BC%EC%9E%84%20%EB%B0%94%EC%A7%88%20%EC%95%A4%20%EB%A7%8C%EB%8B%A4%EB%A6%B0%20%EC%BD%94%EB%A1%B1%20%EB%85%B8%ED%8A%B82.JPG?raw=true', '시트러스', '플로럴');
+
+INSERT INTO `detail` (`p_id`, `pname`, `pbrand`, `pimage`, `pexp`, `pnote`, `ptag1`, `ptag2`) VALUES (23, '바질 앤 네롤리 코롱', '조말론', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EC%A1%B0%EB%A7%90%EB%A1%A0/%EB%B0%94%EC%A7%88%20%EC%95%A4%20%EB%84%A4%EB%A1%A4%EB%A6%AC%20%EC%BD%94%EB%A1%B1.JPG?raw=true', '플로럴향이 풍부한 네롤리와 바질향' , 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EC%A1%B0%EB%A7%90%EB%A1%A0/%EB%B0%94%EC%A7%88%20%EC%95%A4%20%EB%84%A4%EB%A1%A4%EB%A6%AC%20%EC%BD%94%EB%A1%B1%20%EB%85%B8%ED%8A%B82.JPG?raw=true', '시트러스', '플로럴');
+
+INSERT INTO `detail` (`p_id`, `pname`, `pbrand`, `pimage`, `pexp`, `pnote`, `ptag1`, `ptag2`) VALUES (24, '블랙베리 앤 베이 코롱', '조말론', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EC%A1%B0%EB%A7%90%EB%A1%A0/%EB%B8%94%EB%9E%99%EB%B2%A0%EB%A6%AC%20%EC%95%A4%20%EB%B2%A0%EC%9D%B4%20%EC%BD%94%EB%A1%B1.JPG?raw=true', '월계수의 신선함에 톡 쏘는 블래베리향', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EC%A1%B0%EB%A7%90%EB%A1%A0/%EB%B8%94%EB%9E%99%EB%B2%A0%EB%A6%AC%20%EC%95%A4%20%EB%B2%A0%EC%9D%B4%20%EC%BD%94%EB%A1%B1%20%EB%85%B8%ED%8A%B82.JPG?raw=true', '프루티', '어시');
+
+INSERT INTO `detail` (`p_id`, `pname`, `pbrand`, `pimage`, `pexp`, `pnote`, `ptag1`, `ptag2`) VALUES (25, '앰버 앤 라벤더 코롱', '조말론', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EC%A1%B0%EB%A7%90%EB%A1%A0/%EC%95%B0%EB%B2%84%20%EC%95%A4%20%EB%9D%BC%EB%B2%A4%EB%8D%94%20%EC%BD%94%EB%A1%B1.JPG?raw=true', '클래식하고 깔끔한 남성향수, 엠버향', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EC%A1%B0%EB%A7%90%EB%A1%A0/%EC%95%B0%EB%B2%84%20%EC%95%A4%20%EB%9D%BC%EB%B2%A4%EB%8D%94%20%EC%BD%94%EB%A1%B1%20%EB%85%B8%ED%8A%B82.JPG?raw=true', '스파이시', NULL);
+
+INSERT INTO `detail` (`p_id`, `pname`, `pbrand`, `pimage`, `pexp`, `pnote`, `ptag1`, `ptag2`) VALUES (26, '얼 그레이 앤 큐컴버 코롱', '조말론', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EC%A1%B0%EB%A7%90%EB%A1%A0/%EC%96%BC%20%EA%B7%B8%EB%A0%88%EC%9D%B4%20%EC%95%A4%20%ED%81%90%EC%BB%B4%EB%B2%84%20%EC%BD%94%EB%A1%B1.JPG?raw=true', '프루티 아로마향과 시원한 오이향', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EC%A1%B0%EB%A7%90%EB%A1%A0/%EC%96%BC%20%EA%B7%B8%EB%A0%88%EC%9D%B4%20%EC%95%A4%20%ED%81%90%EC%BB%B4%EB%B2%84%20%EC%BD%94%EB%A1%B1%20%EB%85%B8%ED%8A%B82.JPG?raw=true', '시트러스', NULL);
+
+INSERT INTO `detail` (`p_id`, `pname`, `pbrand`, `pimage`, `pexp`, `pnote`, `ptag1`, `ptag2`) VALUES (27, '오렌지 블로썸 코롱', '조말론', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EC%A1%B0%EB%A7%90%EB%A1%A0/%EC%98%A4%EB%A0%8C%EC%A7%80%20%EB%B8%94%EB%A1%9C%EC%8D%B8%20%EC%BD%94%EB%A1%B1.JPG?raw=true', '흰 붓꽃의 따뜻한향기와 오렌지 꽃의 향', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EC%A1%B0%EB%A7%90%EB%A1%A0/%EC%98%A4%EB%A0%8C%EC%A7%80%20%EB%B8%94%EB%A1%9C%EC%8D%B8%20%EC%BD%94%EB%A1%B1%20%EB%85%B8%ED%8A%B82.JPG?raw=true', '플로럴', '시트러스');
+
+INSERT INTO `detail` (`p_id`, `pname`, `pbrand`, `pimage`, `pexp`, `pnote`, `ptag1`, `ptag2`) VALUES (28, '와일드 블루벨 코롱', '조말론', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EC%A1%B0%EB%A7%90%EB%A1%A0/%EC%99%80%EC%9D%BC%EB%93%9C%20%EB%B8%94%EB%A3%A8%EB%B2%A8%20%EC%BD%94%EB%A1%B1.JPG?raw=true', '블루벨의 은은하고 달콤한 향', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EC%A1%B0%EB%A7%90%EB%A1%A0/%EC%99%80%EC%9D%BC%EB%93%9C%20%EB%B8%94%EB%A3%A8%EB%B2%A8%20%EC%BD%94%EB%A1%B1%20%EB%85%B8%ED%8A%B82.JPG?raw=true', '라이트 플로럴', NULL);
+
+INSERT INTO `detail` (`p_id`, `pname`, `pbrand`, `pimage`, `pexp`, `pnote`, `ptag1`, `ptag2`) VALUES (29, '우드 세이지 앤 씨 솔트 코롱', '조말론', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EC%A1%B0%EB%A7%90%EB%A1%A0/%EC%9A%B0%EB%93%9C%20%EC%84%B8%EC%9D%B4%EC%A7%80%20%EC%95%A4%20%EC%94%A8%20%EC%86%94%ED%8A%B8%20%EC%BD%94%EB%A1%B1.JPG?raw=true', '바다와 자연의 향기와 세이지의 우디향', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EC%A1%B0%EB%A7%90%EB%A1%A0/%EC%9A%B0%EB%93%9C%20%EC%84%B8%EC%9D%B4%EC%A7%80%20%EC%95%A4%20%EC%94%A8%20%EC%86%94%ED%8A%B8%20%EC%BD%94%EB%A1%B1%20%EB%85%B8%ED%8A%B82.JPG?raw=true', '우디', '어시');
+
+
+INSERT INTO `detail` (`p_id`, `pname`, `pbrand`, `pimage`, `pexp`, `pnote`, `ptag1`, `ptag2`) VALUES (30, '잉글리쉬 페어 앤 프리지아 코롱', '조말론', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EC%A1%B0%EB%A7%90%EB%A1%A0/%EC%9E%89%EA%B8%80%EB%A6%AC%EC%89%AC%20%ED%8E%98%EC%96%B4%20%EC%95%A4%20%ED%94%84%EB%A6%AC%EC%A7%80%EC%95%84%20%EC%BD%94%EB%A1%B1.JPG?raw=true', '프리지아 부케향과 배향, 은은한 우디향', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EC%A1%B0%EB%A7%90%EB%A1%A0/%EC%9E%89%EA%B8%80%EB%A6%AC%EC%89%AC%20%ED%8E%98%EC%96%B4%20%EC%95%A4%20%ED%94%84%EB%A6%AC%EC%A7%80%EC%95%84%20%EC%BD%94%EB%A1%B1%20%EB%85%B8%ED%8A%B82.JPG?raw=true', '플로럴', '프루티');
+
+
+
+
+
+
+
+
+
+
+
+INSERT INTO `detail` (`p_id`, `pname`, `pbrand`, `pimage`, `pexp`, `pnote`, `ptag1`, `ptag2`) VALUES (31, '피에노', '산타마리아노벨라', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EC%82%B0%ED%83%80%EB%A7%88%EB%A6%AC%EC%95%84%EB%85%B8%EB%B2%A8%EB%9D%BC/%ED%94%BC%EC%97%90%EB%85%B8.jpg?raw=true', '상큼한 시트러스 향에서 꽃 로션 향', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EC%82%B0%ED%83%80%EB%A7%88%EB%A6%AC%EC%95%84%EB%85%B8%EB%B2%A8%EB%9D%BC/%ED%94%BC%EC%97%90%EB%85%B8%20%EB%85%B8%ED%8A%B82.JPG?raw=true', '시트러스', '플로럴');
+
+
+INSERT INTO `detail` (`p_id`, `pname`, `pbrand`, `pimage`, `pexp`, `pnote`, `ptag1`, `ptag2`) VALUES (32, '카라로사', '산타마리아노벨라', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EC%82%B0%ED%83%80%EB%A7%88%EB%A6%AC%EC%95%84%EB%85%B8%EB%B2%A8%EB%9D%BC/%EC%B9%B4%EB%9D%BC%EB%A1%9C%EC%82%AC.jpg?raw=true', '야생 라벤더와 로즈마리가 핀 바닷가', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EC%82%B0%ED%83%80%EB%A7%88%EB%A6%AC%EC%95%84%EB%85%B8%EB%B2%A8%EB%9D%BC/%EC%B9%B4%EB%9D%BC%EB%A1%9C%EC%82%AC%20%EB%85%B8%ED%8A%B8%202.JPG?raw=true', '플로럴', '우디');
+
+
+INSERT INTO `detail` (`p_id`, `pname`, `pbrand`, `pimage`, `pexp`, `pnote`, `ptag1`, `ptag2`) VALUES (33, '지네스트라', '산타마리아노벨라', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EC%82%B0%ED%83%80%EB%A7%88%EB%A6%AC%EC%95%84%EB%85%B8%EB%B2%A8%EB%9D%BC/%EC%A7%80%EB%84%A4%EC%8A%A4%ED%8A%B8%EB%9D%BC.jpg?raw=true', '스파이시한 금작화의 향', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EC%82%B0%ED%83%80%EB%A7%88%EB%A6%AC%EC%95%84%EB%85%B8%EB%B2%A8%EB%9D%BC/%EC%A7%80%EB%84%A4%EC%8A%A4%ED%8A%B8%EB%9D%BC%20%EB%85%B8%ED%8A%B8%202.JPG?raw=true', '플로럴', '우디');
+
+
+INSERT INTO `detail` (`p_id`, `pname`, `pbrand`, `pimage`, `pexp`, `pnote`, `ptag1`, `ptag2`) VALUES (34, '무게또', '산타마리아노벨라', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EC%82%B0%ED%83%80%EB%A7%88%EB%A6%AC%EC%95%84%EB%85%B8%EB%B2%A8%EB%9D%BC/%EB%AC%B4%EA%B2%8C%EB%98%90.jpg?raw=true', '은은한 은방울꽃 향', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EC%82%B0%ED%83%80%EB%A7%88%EB%A6%AC%EC%95%84%EB%85%B8%EB%B2%A8%EB%9D%BC/%EB%AC%B4%EA%B2%8C%EB%98%90%20%EB%85%B8%ED%8A%B8%202.JPG?raw=true', '플로럴', NULL);
+
+
+INSERT INTO `detail` (`p_id`, `pname`, `pbrand`, `pimage`, `pexp`, `pnote`, `ptag1`, `ptag2`) VALUES (35, '아이리스', '산타마리아노벨라', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EC%82%B0%ED%83%80%EB%A7%88%EB%A6%AC%EC%95%84%EB%85%B8%EB%B2%A8%EB%9D%BC/%EC%95%84%EC%9D%B4%EB%A6%AC%EC%8A%A4.jpg?raw=true', '은은한 바이올렛 계열의 꽃향기', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EC%82%B0%ED%83%80%EB%A7%88%EB%A6%AC%EC%95%84%EB%85%B8%EB%B2%A8%EB%9D%BC/%EC%95%84%EC%9D%B4%EB%A6%AC%EC%8A%A4%20%EB%85%B8%ED%8A%B8%202.JPG?raw=true', '플로럴', '파우더리');
+
+
+INSERT INTO `detail` (`p_id`, `pname`, `pbrand`, `pimage`, `pexp`, `pnote`, `ptag1`, `ptag2`) VALUES (36, '가데니아', '산타마리아노벨라', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EC%82%B0%ED%83%80%EB%A7%88%EB%A6%AC%EC%95%84%EB%85%B8%EB%B2%A8%EB%9D%BC/%EA%B0%80%EB%8D%B0%EB%8B%88%EC%95%84.jpg?raw=true', '가데니아 꽃이 핀 신선한 숲의 녹음', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EC%82%B0%ED%83%80%EB%A7%88%EB%A6%AC%EC%95%84%EB%85%B8%EB%B2%A8%EB%9D%BC/%EA%B0%80%EB%8D%B0%EB%8B%88%EC%95%84%20%EB%85%B8%ED%8A%B8%202.JPG?raw=true', '플로럴', NULL);
+
+
+INSERT INTO `detail` (`p_id`, `pname`, `pbrand`, `pimage`, `pexp`, `pnote`, `ptag1`, `ptag2`) VALUES (37, '라반다 임페리알레', '산타마리아노벨라', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EC%82%B0%ED%83%80%EB%A7%88%EB%A6%AC%EC%95%84%EB%85%B8%EB%B2%A8%EB%9D%BC/%EB%9D%BC%EB%B0%98%EB%8B%A4%20%EC%9E%84%ED%8E%98%EB%A6%AC%EC%95%8C%EB%A0%88.jpg?raw=true', '시트러스 풀향과 라벤다 향의 조합으로 라벤다 생화의 향', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EC%82%B0%ED%83%80%EB%A7%88%EB%A6%AC%EC%95%84%EB%85%B8%EB%B2%A8%EB%9D%BC/%EB%9D%BC%EB%B0%98%EB%8B%A4%20%EC%9E%84%ED%8E%98%EB%A6%AC%EC%95%8C%EB%A0%88%20%EB%85%B8%ED%8A%B8%202.JPG?raw=true', '시트러스', '플로럴');
+
+
+INSERT INTO `detail` (`p_id`, `pname`, `pbrand`, `pimage`, `pexp`, `pnote`, `ptag1`, `ptag2`) VALUES (38, '로사', '산타마리아노벨라', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EC%82%B0%ED%83%80%EB%A7%88%EB%A6%AC%EC%95%84%EB%85%B8%EB%B2%A8%EB%9D%BC/%EB%A1%9C%EC%82%AC.jpg?raw=true', '파우더리하게 다듬어진 장미꽃의 향', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EC%82%B0%ED%83%80%EB%A7%88%EB%A6%AC%EC%95%84%EB%85%B8%EB%B2%A8%EB%9D%BC/%EB%A1%9C%EC%82%AC%20%EB%85%B8%ED%8A%B8%202.JPG?raw=true', '플로럴', '파우더리');
+
+
+INSERT INTO `detail` (`p_id`, `pname`, `pbrand`, `pimage`, `pexp`, `pnote`, `ptag1`, `ptag2`) VALUES (39, '프리지아', '산타마리아노벨라', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EC%82%B0%ED%83%80%EB%A7%88%EB%A6%AC%EC%95%84%EB%85%B8%EB%B2%A8%EB%9D%BC/%ED%94%84%EB%A6%AC%EC%A7%80%EC%95%84.jpg?raw=true', '프리지아 단일 노트 프리지아 생화향', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EC%82%B0%ED%83%80%EB%A7%88%EB%A6%AC%EC%95%84%EB%85%B8%EB%B2%A8%EB%9D%BC/%ED%94%84%EB%A6%AC%EC%A7%80%EC%95%84%20%EB%85%B8%ED%8A%B8%202.JPG?raw=true', '플로럴', NULL);
+
+
+INSERT INTO `detail` (`p_id`, `pname`, `pbrand`, `pimage`, `pexp`, `pnote`, `ptag1`, `ptag2`) VALUES (40, '멜로그라노', '산타마리아노벨라', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EC%82%B0%ED%83%80%EB%A7%88%EB%A6%AC%EC%95%84%EB%85%B8%EB%B2%A8%EB%9D%BC/%EB%A9%9C%EB%A1%9C%EA%B7%B8%EB%9D%BC%EB%85%B8.jpg?raw=true', '파우더리한 석류의 향', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EC%82%B0%ED%83%80%EB%A7%88%EB%A6%AC%EC%95%84%EB%85%B8%EB%B2%A8%EB%9D%BC/%EB%A9%9C%EB%A1%9C%EA%B7%B8%EB%9D%BC%EB%85%B8%20%EB%85%B8%ED%8A%B8%202.JPG?raw=true', '플로럴', '파우더리');
+
+
+
+
+
+
+
+
+
+
+
+
+INSERT INTO `detail` (`p_id`, `pname`, `pbrand`, `pimage`, `pexp`, `pnote`, `ptag1`, `ptag2`) VALUES (41, '라 튤립', '바이레도', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EB%B0%94%EC%9D%B4%EB%A0%88%EB%8F%84/%EB%9D%BC%20%ED%8A%A4%EB%A6%BD.jpg?raw=true', '한 계절에 처음 맺는 꽃 봉오리처럼 활기넘치고 매력적이고 낙천적인 느낌의 향', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EB%B0%94%EC%9D%B4%EB%A0%88%EB%8F%84/%EB%9D%BC%20%ED%8A%A4%EB%A6%BD%20%EB%85%B8%ED%8A%B82.PNG?raw=true', '플로럴', '그린');
+
+
+INSERT INTO `detail` (`p_id`, `pname`, `pbrand`, `pimage`, `pexp`, `pnote`, `ptag1`, `ptag2`) VALUES (42, '로즈 느와', '바이레도', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EB%B0%94%EC%9D%B4%EB%A0%88%EB%8F%84/%EB%A1%9C%EC%A6%88%20%EB%8A%90%EC%99%80.jpg?raw=true', '디마스크 향의 성질이 강하고 현대적인 향', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EB%B0%94%EC%9D%B4%EB%A0%88%EB%8F%84/%EB%A1%9C%EC%A6%88%20%EB%8A%90%EC%99%80%20%EB%85%B8%ED%8A%B82.PNG?raw=true', '로즈', '모시');
+
+
+INSERT INTO `detail` (`p_id`, `pname`, `pbrand`, `pimage`, `pexp`, `pnote`, `ptag1`, `ptag2`) VALUES (43, '로즈 오브 맨즈 랜드', '바이레도', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EB%B0%94%EC%9D%B4%EB%A0%88%EB%8F%84/%EB%A1%9C%EC%A6%88%EC%98%A4%EB%B8%8C%EB%A7%A8%EC%A6%88%EB%9E%9C%EB%93%9C.jpg?raw=true', '터키쉬 로즈페탈과 핑크페퍼콘의 부드러우면서 스파클링한 느낌으로 시작하여 가장 시크한 장미향', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EB%B0%94%EC%9D%B4%EB%A0%88%EB%8F%84/%EB%A1%9C%EC%A6%88%EC%98%A4%EB%B8%8C%EB%A7%A8%EC%A6%88%EB%9E%9C%EB%93%9C%20%EB%85%B8%ED%8A%B82.PNG?raw=true', '로즈', '플로럴');
+
+
+INSERT INTO `detail` (`p_id`, `pname`, `pbrand`, `pimage`, `pexp`, `pnote`, `ptag1`, `ptag2`) VALUES (44, '릴 플레르', '바이레도', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EB%B0%94%EC%9D%B4%EB%A0%88%EB%8F%84/%EB%A6%B4%20%ED%94%8C%EB%A0%88%EB%A5%B4.jpg?raw=true', '다마스크 장미의 달콤한 향', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EB%B0%94%EC%9D%B4%EB%A0%88%EB%8F%84/%EB%A6%B4%20%ED%94%8C%EB%A0%88%EB%A5%B4%20%EB%85%B8%ED%8A%B82.PNG?raw=true', '로즈', '레더');
+
+
+INSERT INTO `detail` (`p_id`, `pname`, `pbrand`, `pimage`, `pexp`, `pnote`, `ptag1`, `ptag2`) VALUES (45, '모하비 고스트', '바이레도', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EB%B0%94%EC%9D%B4%EB%A0%88%EB%8F%84/%EB%AA%A8%ED%95%98%EB%B9%84%20%EA%B3%A0%EC%8A%A4%ED%8A%B8.jpg?raw=true', '자메이칸 네스베리의 신선한 향에서 시작하여 샌달우드, 목련등의 향', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EB%B0%94%EC%9D%B4%EB%A0%88%EB%8F%84/%EB%AA%A8%ED%95%98%EB%B9%84%20%EA%B3%A0%EC%8A%A4%ED%8A%B8%20%EB%85%B8%ED%8A%B82.PNG?raw=true', '플로럴', '우디');
+
+
+INSERT INTO `detail` (`p_id`, `pname`, `pbrand`, `pimage`, `pexp`, `pnote`, `ptag1`, `ptag2`) VALUES (46, '믹스드 이모션', '바이레도', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EB%B0%94%EC%9D%B4%EB%A0%88%EB%8F%84/%EB%AF%B9%EC%8A%A4%EB%93%9C%20%EC%9D%B4%EB%AA%A8%EC%85%98.jpg?raw=true', '익숙하지만 익숙하지 않은 것들의 결합, 중성적인 향', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EB%B0%94%EC%9D%B4%EB%A0%88%EB%8F%84/%EB%AF%B9%EC%8A%A4%EB%93%9C%20%EC%9D%B4%EB%AA%A8%EC%85%98%20%EB%85%B8%ED%8A%B82.PNG?raw=true', '프루티', '그린');
+
+
+INSERT INTO `detail` (`p_id`, `pname`, `pbrand`, `pimage`, `pexp`, `pnote`, `ptag1`, `ptag2`) VALUES (47, '발 다프리크', '바이레도', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EB%B0%94%EC%9D%B4%EB%A0%88%EB%8F%84/%EB%B0%9C%20%EB%8B%A4%ED%94%84%EB%A6%AC%ED%81%AC.jpg?raw=true', '따뜻하고 로맨틱한 베티버 향', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EB%B0%94%EC%9D%B4%EB%A0%88%EB%8F%84/%EB%B0%9C%20%EB%8B%A4%ED%94%84%EB%A6%AC%ED%81%AC%20%EB%85%B8%ED%8A%B82.PNG?raw=true', '로즈', '레더');
+
+
+INSERT INTO `detail` (`p_id`, `pname`, `pbrand`, `pimage`, `pexp`, `pnote`, `ptag1`, `ptag2`) VALUES (48, '블랑쉬', '바이레도', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EB%B0%94%EC%9D%B4%EB%A0%88%EB%8F%84/%EB%B8%94%EB%9E%91%EC%89%AC.jpg?raw=true', '순수하고 심플하면서도 개성이 강한 향', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EB%B0%94%EC%9D%B4%EB%A0%88%EB%8F%84/%EB%B8%94%EB%9E%91%EC%89%AC%20%EB%85%B8%ED%8A%B82.PNG?raw=true', '프레시', '알데하이드');
+
+
+INSERT INTO `detail` (`p_id`, `pname`, `pbrand`, `pimage`, `pexp`, `pnote`, `ptag1`, `ptag2`) VALUES (49, '인플로레센스', '바이레도', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EB%B0%94%EC%9D%B4%EB%A0%88%EB%8F%84/%EC%9D%B8%ED%94%8C%EB%A1%9C%EB%A0%88%EC%84%BC%EC%8A%A4.jpg?raw=true', '봄에 만개하는 꽃의 향', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EB%B0%94%EC%9D%B4%EB%A0%88%EB%8F%84/%EC%9D%B8%ED%94%8C%EB%A1%9C%EB%A0%88%EC%84%BC%EC%8A%A4%20%EB%85%B8%ED%8A%B8%202.PNG?raw=true', '플로럴', NULL);
+
+
+INSERT INTO `detail` (`p_id`, `pname`, `pbrand`, `pimage`, `pexp`, `pnote`, `ptag1`, `ptag2`) VALUES (50, '집시 워터', '바이레도', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EB%B0%94%EC%9D%B4%EB%A0%88%EB%8F%84/%EC%A7%91%EC%8B%9C%20%EC%9B%8C%ED%84%B0.jpg?raw=true', '땅, 캠프파이어의 느낌', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EB%B0%94%EC%9D%B4%EB%A0%88%EB%8F%84/%EC%A7%91%EC%8B%9C%20%EC%9B%8C%ED%84%B0%20%EB%85%B8%ED%8A%B82.PNG?raw=true', '우디', '아로마틱');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+INSERT INTO `detail` (`p_id`, `pname`, `pbrand`, `pimage`, `pexp`, `pnote`, `ptag1`, `ptag2`) VALUES (51, '휠', '이솝', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EC%9D%B4%EC%86%9D/%ED%9C%A0.JPG?raw=true', '자연 그대로의 나무 향', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EC%A1%B0%EB%A7%90%EB%A1%A0/%EC%9E%89%EA%B8%80%EB%A6%AC%EC%89%AC%20%ED%8E%98%EC%96%B4%20%EC%95%A4%20%ED%94%84%EB%A6%AC%EC%A7%80%EC%95%84%20%EC%BD%94%EB%A1%B1%20%EB%85%B8%ED%8A%B82.JPG?raw=true', '우디', 'NULL');
+
+
+INSERT INTO `detail` (`p_id`, `pname`, `pbrand`, `pimage`, `pexp`, `pnote`, `ptag1`, `ptag2`) VALUES (52, '로주', '이솝', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EC%9D%B4%EC%86%9D/%EB%A1%9C%EC%A3%BC.JPG?raw=true', '자연 그대로의 장미 향', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EC%9D%B4%EC%86%9D/%EB%A1%9C%EC%A3%BC%20%EB%85%B8%ED%8A%B8%202.JPG?raw=true', '우디', '플로럴');
+
+
+INSERT INTO `detail` (`p_id`, `pname`, `pbrand`, `pimage`, `pexp`, `pnote`, `ptag1`, `ptag2`) VALUES (53, '마라캐시', '이솝', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EC%9D%B4%EC%86%9D/%EB%A7%88%EB%9D%BC%EC%BA%90%EC%8B%9C.JPG?raw=true', '스파이시한 샌달 우드의향', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EC%9D%B4%EC%86%9D/%EB%A7%88%EB%9D%BC%EC%BA%90%EC%8B%9C%20%EB%85%B8%ED%8A%B8%202.JPG?raw=true', '우드', NULL);
+
+
+INSERT INTO `detail` (`p_id`, `pname`, `pbrand`, `pimage`, `pexp`, `pnote`, `ptag1`, `ptag2`) VALUES (54, '테싯', '이솝', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EC%9D%B4%EC%86%9D/%ED%85%8C%EC%8B%AF.JPG?raw=true', '숲 속의 욕조 향', 'https://github.com/inthedownpour/R_Perfume/blob/main/image/%EC%9D%B4%EC%86%9D/%ED%85%8C%EC%8B%AF%20%EB%85%B8%ED%8A%B8%202.JPG?raw=true', '우드', '시트러스');
