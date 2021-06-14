@@ -28,7 +28,7 @@
         mapTypeId: google.maps.MapTypeId.ROADMAP
   }
   var map = new google.maps.Map(document.getElementById('map_canvas'), mapOptions);
-  var marker_1 = new google.maps.Marker({
+  var marker = new google.maps.Marker({
   position: SOTRE_1,
   map: map,
   title: "현대백화점 충청" // 마커에 마우스를 올렸을때 간략하게 표기될 설명글
@@ -123,7 +123,7 @@
               <?php
                 echo $data['pbrand'];
               ?></h4>
-              <h4>info:
+              <h4>Info:
                 <?php
                   echo $data['pexp'];
                 ?></h4>
