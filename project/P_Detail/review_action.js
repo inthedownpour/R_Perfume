@@ -22,8 +22,6 @@ function submitReview(){
     dateEL.classList.add('review_date');
     dateEL.innerText=dateString;
     document.getElementById('write_coment').appendChild(dateEL);
-
-
   }
   else {
     warnempty();
