@@ -32,10 +32,6 @@ div.row{
 }
 
         .review_row{
-          padding-top: 8px;
-          padding-bottom: 8px;
-          padding-left: 6px;
-          padding-right: 10px;
           background:#FBEFF2;
           color: black;
         }
@@ -43,6 +39,11 @@ div.row{
         .review_content{
           width:100%;
           clear:both;
+          padding-top: 8px;
+          padding-bottom: 8px;
+          padding-left: 6px;
+          padding-right: 10px;
+          background:#FBEFF2;
           color:black;
         }
         .review_date{
