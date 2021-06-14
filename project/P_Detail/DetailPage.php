@@ -20,20 +20,22 @@
     <link rel="stylesheet" type="text/css" href="Navbar.css">
 <script>
   function initialize() {
-var myLatlng = new google.maps.LatLng(36.62990490050947, 127.45642593069294); // 좌표값
+  var STORE_1 = new google.maps.LatLng(36.64452322995984, 127.42654081325928); // 좌표값
+  var STORE_2 = new google.maps.LatLng(36.62623172907862, 127.43117366721938);
   var mapOptions = {
-        zoom: 14, // 지도 확대레벨 조정
-        center: myLatlng,
+        zoom: 14, // 지도 확대레벨 조정``
+        center: STORE_1,
         mapTypeId: google.maps.MapTypeId.ROADMAP
   }
   var map = new google.maps.Map(document.getElementById('map_canvas'), mapOptions);
-  var marker = new google.maps.Marker({
-position: myLatlng,
-map: map,
-title: "Store" // 마커에 마우스를 올렸을때 간략하게 표기될 설명글
-});
+  var marker_1 = new google.maps.Marker({
+  position: SOTRE_1,
+  map: map,
+  title: "현대백화점 충청" // 마커에 마우스를 올렸을때 간략하게 표기될 설명글
+  });
   }
-window.onload = initialize;
+
+    window.onload = initialize;
 </script>
     <style>
       #back{
@@ -121,6 +123,10 @@ window.onload = initialize;
               <?php
                 echo $data['pbrand'];
               ?></h4>
+              <h4>info:
+                <?php
+                  echo $data['pexp'];
+                ?></h4>
             <h4>Category:
               <?php
                 echo $data['ptag1'];
@@ -129,7 +135,6 @@ window.onload = initialize;
               <?ph
                 echo $data['ptag2'];
               ?>
-              </p>
             </h4>
           </div>
 
@@ -137,19 +142,16 @@ window.onload = initialize;
 
 
                   <h5>~REVIEW~</h5>
-
+                  <div class="review_row">
                   <div id="write_coment">
                     <form>
                       <input type="text" id="new_review" style="width:100%;" placeholder="Write your review"><br/>
                       <button type="button" id="btn_coment" onclick="submitReview()" style="float:right;">등록</button>
                     </form>
                   </div>
-                  <div id="dateset">
-
                   </div>
 
                   <div class="review_row">
-
                     <div class="review_content">
                       I'm fully satisfied
                     </div>
@@ -159,9 +161,8 @@ window.onload = initialize;
                   </div>
 
                   <div class="review_row">
-
                     <div class="review_content">
-                      nothing
+                      Good
                     </div>
                     <div class="review_date">
                       2021. 6. 4. 오후 2:05:03
